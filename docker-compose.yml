@@ -31,7 +31,7 @@ services:
       DISPLAY: 192.168.1.7:0.0 # address of X server
       # DISPLAY: 10.0.75.1:0.0 # vEthernet (DockerNAT)
     volumes:
-      - .\simdata:/simdata # for windows
+      - .\simdata2:/simdata # for windows
       # - ./simdata:/simdata # for windows
     ports:
       - 5000:5000

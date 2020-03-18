@@ -131,3 +131,4 @@ dmypy.json
 # other
 UniSim/.git
 UniSim/.gitignore
+simdata2/sample_RESTServer/script/*.db
