@@ -1,0 +1,137 @@
+<!-- Watanabe Dori 4chome, Tenjin Minami Eki -->
+
+<flows>
+    <!-- 07:00- -->
+    <interval begin="25200" end="28799">
+        <!-- <flow id="WatanabeDori4chome_A_0700" from="258878956#8" number="914" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_0700" from="217421750#2" number="1534" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_0700" from="503961113#1" number="841" /> -->
+        
+        <flow id="TenjinMinamiEki_A_0700" from="520149464#1" number="65" />
+        <flow id="TenjinMinamiEki_B_0700" from="-204408420#0" number="481" />
+        <flow id="TenjinMinamiEki_C_0700" from="-56131478#1" number="1" />
+    </interval>
+
+    <!-- 08:00 -->
+    <interval begin="28800" end="32399">
+        <!-- <flow id="WatanabeDori4chome_A_0800" from="258878956#8" number="1254" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_0800" from="217421750#2" number="1345" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_0800" from="210342326#0" number="836" /> -->
+        
+        <flow id="TenjinMinamiEki_A_0800" from="520149464#1" number="106" />
+        <flow id="TenjinMinamiEki_B_0800" from="-204408420#0" number="532" />
+        <flow id="TenjinMinamiEki_C_0800" from="-56131478#1" number="8" />
+    </interval>
+
+    <!-- 09:00 -->
+    <interval begin="32400" end="35999">
+        <!-- <flow id="WatanabeDori4chome_A_0900" from="258878956#8" number="1372" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_0900" from="217421750#2" number="1281" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_0900" from="210342326#0" number="683" /> -->
+        
+        <flow id="TenjinMinamiEki_A_0900" from="520149464#1" number="200" />
+        <flow id="TenjinMinamiEki_B_0900" from="-204408420#0" number="817" />
+        <flow id="TenjinMinamiEki_C_0900" from="-56131478#1" number="21" />
+    </interval>
+
+    <!-- 10:00 -->
+    <interval begin="36000" end="39599">
+        <!-- <flow id="WatanabeDori4chome_A_1000" from="258878956#8" number="1595" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_1000" from="217421750#2" number="1376" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_1000" from="210342326#0" number="863" /> -->
+        
+        <flow id="TenjinMinamiEki_A_1000" from="520149464#1" number="240" />
+        <flow id="TenjinMinamiEki_B_1000" from="-204408420#0" number="842" />
+        <flow id="TenjinMinamiEki_C_1000" from="-56131478#1" number="10" />
+    </interval>
+
+    <!-- 11:00 -->
+    <interval begin="39600" end="43199">
+        <!-- <flow id="WatanabeDori4chome_A_1100" from="258878956#8" number="1852" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_1100" from="217421750#2" number="1366" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_1100" from="210342326#0" number="1020" /> -->
+        
+        <flow id="TenjinMinamiEki_A_1100" from="520149464#1" number="257" />
+        <flow id="TenjinMinamiEki_B_1100" from="-204408420#0" number="841" />
+        <flow id="TenjinMinamiEki_C_1100" from="-56131478#1" number="20" />
+    </interval>
+
+    <!-- 12:00 -->
+    <interval begin="43200" end="46799">
+        <!-- <flow id="WatanabeDori4chome_A_1200" from="258878956#8" number="1866" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_1200" from="217421750#2" number="1354" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_1200" from="210342326#0" number="844" /> -->
+        
+        <flow id="TenjinMinamiEki_A_1200" from="520149464#1" number="232" />
+        <flow id="TenjinMinamiEki_B_1200" from="-204408420#0" number="903" />
+        <flow id="TenjinMinamiEki_C_1200" from="-56131478#1" number="16" />
+    </interval>
+
+    <!-- 13:00 -->
+    <interval begin="46800" end="50399">
+        <!-- <flow id="WatanabeDori4chome_A_1300" from="258878956#8" number="1613" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_1300" from="217421750#2" number="1249" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_1300" from="210342326#0" number="697" /> -->
+        
+        <flow id="TenjinMinamiEki_A_1300" from="520149464#1" number="248" />
+        <flow id="TenjinMinamiEki_B_1300" from="-204408420#0" number="782" />
+        <flow id="TenjinMinamiEki_C_1300" from="-56131478#1" number="11" />
+    </interval>
+
+    <!-- 14:00 -->
+    <interval begin="50400" end="53999">
+        <!-- <flow id="WatanabeDori4chome_A_1400" from="258878956#8" number="1620" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_1400" from="217421750#2" number="1166" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_1400" from="210342326#0" number="820" /> -->
+        
+        <flow id="TenjinMinamiEki_A_1400" from="520149464#1" number="235" />
+        <flow id="TenjinMinamiEki_B_1400" from="-204408420#0" number="874" />
+        <flow id="TenjinMinamiEki_C_1400" from="-56131478#1" number="17" />
+    </interval>
+
+    <!-- 15:00 -->
+    <interval begin="54000" end="57599">
+        <!-- <flow id="WatanabeDori4chome_A_1500" from="258878956#8" number="1478" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_1500" from="217421750#2" number="1149" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_1500" from="210342326#0" number="848" /> -->
+        
+        <flow id="TenjinMinamiEki_A_1500" from="520149464#1" number="279" />
+        <flow id="TenjinMinamiEki_B_1500" from="-204408420#0" number="975" />
+        <flow id="TenjinMinamiEki_C_1500" from="-56131478#1" number="16" />
+    </interval>
+
+    <!-- 16:00 -->
+    <interval begin="57600" end="61199">
+        <!-- <flow id="WatanabeDori4chome_A_1600" from="258878956#8" number="1387" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_1600" from="217421750#2" number="1304" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_1600" from="210342326#0" number="797" /> -->
+        
+        <flow id="TenjinMinamiEki_A_1600" from="520149464#1" number="242" />
+        <flow id="TenjinMinamiEki_B_1600" from="-204408420#0" number="845" />
+        <flow id="TenjinMinamiEki_C_1600" from="-56131478#1" number="13" />
+    </interval>
+
+    <!-- 17:00 -->
+    <interval begin="61200" end="64799">
+        <!-- <flow id="WatanabeDori4chome_A_1700" from="258878956#8" number="1352" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_1700" from="217421750#2" number="1084" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_1700" from="210342326#0" number="744" /> -->
+        
+        <flow id="TenjinMinamiEki_A_1700" from="520149464#1" number="270" />
+        <flow id="TenjinMinamiEki_B_1700" from="-204408420#0" number="908" />
+        <flow id="TenjinMinamiEki_C_1700" from="-56131478#1" number="12" />
+    </interval>
+
+    <!-- 18:00 -->
+    <interval begin="64800" end="68399">
+        <!-- <flow id="WatanabeDori4chome_A_1800" from="258878956#8" number="844" /> -->
+        <!-- <flow id="WatanabeDori4chome_C_1800" from="217421750#2" number="1212" /> -->
+        <!-- <flow id="WatanabeDori4chome_D_1800" from="210342326#0" number="727" /> -->
+        
+        <flow id="TenjinMinamiEki_A_1800" from="520149464#1" number="286" />
+        <flow id="TenjinMinamiEki_B_1800" from="-204408420#0" number="903" />
+        <flow id="TenjinMinamiEki_C_1800" from="-56131478#1" number="25" />
+    </interval>
+
+</flows>
+

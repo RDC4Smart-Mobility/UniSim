@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Jul  8 15:51:55 2019 by Eclipse SUMO duarouter Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="hakata-tenjin.net.xml"/>
+        <route-files value="vehicle_with_navi.flows.xml"/>
+    </input>
+
+    <output>
+        <output-file value="vehicle_with_navi.rou.xml"/>
+        <alternatives-output value="vehicle_with_navi.rou.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="hakata_guchi.0" depart="25260.00" color="cyan">
+        <route edges="179129062#1 178150954#1 178150954#2 169673064#0 169673064#1 169673064#2 169673064#3 169673064#4 175150505#1 175150505#2 45761335#0 45761335#1 45761335#2 45761335#3 -32027132 -32027094#5 -32027094#4 -32027094#2 -32027094#1 -32027093#0 -204408420#4 -204408420#3 -204408420#2 -46679219#6 -46679219#5 -46679219#4 -46679219#3 -46679219#2 -46679219#1 33111382 46697765 -636282886#3 -636282886#2 -636282886#1 -258878959#3 -258878959#2 -258878959#1 520149463#1"/>
+        <stop  parkingArea="HakataGuchi" duration="300"/>
+    </vehicle>
+    <vehicle id="veh_with_navi.0" depart="25260.00" color="red">
+        <route edges="-206636944#6 -43111059#4 -46699042#4 -46699042#3 -46699042#2 -46699042#1 -46699042#0 -43111063#2 -43111063#1 28302398#0 28302398#2 178778538#1 33111382 46697765 -636282886#3 -636282886#2 -636282886#1 -258878959#3 -258878959#2 -258878959#1 -258878959#0 42762533#0 -219773 210342328#0 210342328#1 210342325#0 210342325#1 210342325#2 210342325#3"/>
+        <stop  parkingArea="TestParkArea" duration="300"/>
+    </vehicle>
+</routes>

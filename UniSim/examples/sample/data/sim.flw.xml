@@ -1,0 +1,21 @@
+<flows>
+  <flow id="flow01" from="res1" to="p1en" begin="0" end="3600" number="50" />
+  <flow id="flow04" from="res1" to="p2en" begin="0" end="3600" number="40" />
+  <flow id="flow07" from="res1" to="p3en" begin="0" end="3600" number="20" />
+  
+  <flow id="flow02" from="res2" to="p1en" begin="0" end="3600" number="40" />
+  <flow id="flow05" from="res2" to="p2en" begin="0" end="3600" number="50" />
+  <flow id="flow08" from="res2" to="p3en" begin="0" end="3600" number="20" />
+  
+  <flow id="flow03" from="res3" to="p2en" begin="0" end="3600" number="30" />
+  <flow id="flow06" from="res3" to="p3en" begin="0" end="3600" number="30" />
+  <flow id="flow09" from="res3" to="p1en" begin="0" end="3600" number="20" />
+  
+  <flow id="flow12" from="res1" to="des2" begin="0" end="3600" number="120" />
+  <flow id="flow21" from="res2" to="des1" begin="0" end="3600" number="90" />
+  <flow id="flow13" from="res1" to="des3" begin="0" end="3600" number="45" />
+  <flow id="flow23" from="res2" to="des3" begin="0" end="3600" number="30" />
+  <flow id="flow31" from="res1" to="des3" begin="0" end="3600" number="90" />
+  <flow id="flow32" from="res2" to="des3" begin="0" end="3600" number="60" />
+</flows>
+

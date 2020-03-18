@@ -1,0 +1,89 @@
+<!-- Daimyo 1chome (Nishi Dori) -->
+
+<flows>
+    <!-- 07:00- -->
+    <interval begin="25200" end="28799">
+        <flow id="Daimyo1chome_A_0700" from="520146155#1" number="110" />
+        <!-- <flow id="Daimyo1chome_B_0700" from="-208041264#3" number="523" /> -->
+        <!-- <flow id="Daimyo1chome_C_0700" from="208041264#2" number="918" /> -->
+    </interval>
+
+    <!-- 08:00 -->
+    <interval begin="28800" end="32399">
+        <flow id="Daimyo1chome_A_0800" from="520146155#1" number="131" />
+        <!-- <flow id="Daimyo1chome_B_0800" from="-208041264#3" number="650" /> -->
+        <!-- <flow id="Daimyo1chome_C_0800" from="208041264#2" number="955" /> -->
+    </interval>
+
+    <!-- 09:00 -->
+    <interval begin="32400" end="35999">
+        <flow id="Daimyo1chome_A_0900" from="520146155#1" number="196" />
+        <!-- <flow id="Daimyo1chome_B_0900" from="-208041264#3" number="801" /> -->
+        <!-- <flow id="Daimyo1chome_C_0900" from="208041264#2" number="953" /> -->
+    </interval>
+
+    <!-- 10:00 -->
+    <interval begin="36000" end="39599">
+        <flow id="Daimyo1chome_A_1000" from="520146155#1" number="237" />
+        <!-- <flow id="Daimyo1chome_B_1000" from="-208041264#3" number="932" /> -->
+        <!-- <flow id="Daimyo1chome_C_1000" from="208041264#2" number="879" /> -->
+    </interval>
+
+    <!-- 11:00 -->
+    <interval begin="39600" end="43199">
+        <flow id="Daimyo1chome_A_1100" from="520146155#1" number="270" />
+        <!-- <flow id="Daimyo1chome_B_1100" from="-208041264#3" number="870" /> -->
+        <!-- <flow id="Daimyo1chome_C_1100" from="208041264#2" number="872" /> -->
+    </interval>
+
+    <!-- 12:00 -->
+    <interval begin="43200" end="46799">
+        <flow id="Daimyo1chome_A_1200" from="520146155#1" number="238" />
+        <!-- <flow id="Daimyo1chome_B_1200" from="-208041264#3" number="910" /> -->
+        <!-- <flow id="Daimyo1chome_C_1200" from="208041264#2" number="833" /> -->
+    </interval>
+
+    <!-- 13:00 -->
+    <interval begin="46800" end="50399">
+        <flow id="Daimyo1chome_A_1300" from="520146155#1" number="235" />
+        <!-- <flow id="Daimyo1chome_B_1300" from="-208041264#3" number="891" /> -->
+        <!-- <flow id="Daimyo1chome_C_1300" from="208041264#2" number="800" /> -->
+    </interval>
+
+    <!-- 14:00 -->
+    <interval begin="50400" end="53999">
+        <flow id="Daimyo1chome_A_1400" from="520146155#1" number="248" />
+        <!-- <flow id="Daimyo1chome_B_1400" from="-208041264#3" number="988" /> -->
+        <!-- <flow id="Daimyo1chome_C_1400" from="208041264#2" number="862" /> -->
+    </interval>
+
+    <!-- 15:00 -->
+    <interval begin="54000" end="57599">
+        <flow id="Daimyo1chome_A_1500" from="520146155#1" number="240" />
+        <!-- <flow id="Daimyo1chome_B_1500" from="-208041264#3" number="847" /> -->
+        <!-- <flow id="Daimyo1chome_C_1500" from="208041264#2" number="842" /> -->
+    </interval>
+
+    <!-- 16:00 -->
+    <interval begin="57600" end="61199">
+        <flow id="Daimyo1chome_A_1600" from="520146155#1" number="229" />
+        <!-- <flow id="Daimyo1chome_B_1600" from="-208041264#3" number="912" /> -->
+        <!-- <flow id="Daimyo1chome_C_1600" from="208041264#2" number="857" /> -->
+    </interval>
+
+    <!-- 17:00 -->
+    <interval begin="61200" end="64799">
+        <flow id="Daimyo1chome_A_1700" from="520146155#1" number="238" />
+        <!-- <flow id="Daimyo1chome_B_1700" from="-208041264#3" number="933" /> -->
+        <!-- <flow id="Daimyo1chome_C_1700" from="208041264#2" number="703" /> -->
+    </interval>
+
+    <!-- 18:00 -->
+    <interval begin="64800" end="68399">
+        <flow id="Daimyo1chome_A_1800" from="520146155#1" number="243" />
+        <!-- <flow id="Daimyo1chome_B_1800" from="-208041264#3" number="905" /> -->
+        <!-- <flow id="Daimyo1chome_C_1800" from="208041264#2" number="747" /> -->
+    </interval>
+
+</flows>
+

@@ -1,0 +1,133 @@
+<!-- All Traffic Flows -->
+
+<flows>
+    <!-- 07:00- -->
+    <interval begin="25200" end="28799">
+        <flow id="TaishoDori_IntoB_0700" from="210342326#0" number="1719" />
+        <flow id="Akasaka_IntoB_0700" from="374632640#2" number="660" />
+        <flow id="Kego_A_0700" from="493376596#1" number="1147" />
+        <flow id="Kego_B_0700" from="-41720513#0" number="474" />
+        <flow id="Kego_D_0700" from="68757112#12" number="565" />
+        <flow id="Nanotsuguchi_A_0700" from="61460560#2" number="662" />
+        <flow id="Nanotsuguchi_B_0700" from="46679467#4" number="1272" />
+        <flow id="Nanotsuguchi_D_0700" from="-43105222#0" number="1184" />
+        <flow id="WatanabeDorikita_B_0700" from="-217018808#7" number="126" />
+        <flow id="WatanabeDorikita_D_0700" from="217018808#4" number="248" />
+        <flow id="WatanabeDori1_A_0700" from="-362162012#0" number="863" />
+        <flow id="WatanabeDori1_C_0700" from="186154251#1" number="800" />
+        <flow id="WatanabeDori1_D_0700" from="-220469#0" number="1528" />
+        <flow id="Nihonginkoumae_A_0700" from="-96531331#0" number="28" />
+        <flow id="Fukuokashiyakushoiriguchi_C_0700" from="68756861#2" number="141" />
+        <flow id="Chikkohommachi_A_0700" from="437726194#0" number="104" />
+        <flow id="Chikkohommachi_B_0700" from="-40745158#1" number="1463" />
+        <flow id="Chikkohommachi_D_0700" from="-42762530#1" number="1429" />
+        <flow id="Kuramoto_C_0700" from="-224049" number="1195" />
+        <flow id="Gofukumachi_C_0700" from="-39528682#0" number="561" />
+        <flow id="Gionmachi_B_0700" from="209367163" number="456" />
+        <flow id="Hakataekibasutaminarumae_B1_0700" from="41177844" number="405" />
+        <flow id="Hakataekibasutaminarumae_B2_0700" from="45245576" number="80" />
+        <!-- <flow id="Hakataekibasutaminarumae_C2_0700" from="178150954#2" number="160" /> -->
+        <flow id="Hakataekihakataguchi_C2_0700" from="194289096#2" number="136" />
+        <flow id="Hakataekimae3_B_0700" from="-40745201#1" number="835" />
+        <flow id="Hakataekimae3_C_0700" from="41118349#9" number="1069" />
+
+    </interval>
+
+    <!-- 08:00 -->
+    <interval begin="28800" end="32399">
+        <flow id="TaishoDori_IntoB_0800" from="210342326#0" number="1595" />
+        <flow id="Akasaka_IntoB_0800" from="374632640#2" number="738" />
+        <flow id="Kego_A_0800" from="493376596#1" number="1089" />
+        <flow id="Kego_B_0800" from="-41720513#0" number="584" />
+        <flow id="Kego_D_0800" from="68757112#12" number="623" />
+        <flow id="Nanotsuguchi_A_0800" from="61460560#2" number="1053" />
+        <flow id="Nanotsuguchi_B_0800" from="46679467#4" number="1372" />
+        <flow id="Nanotsuguchi_D_0800" from="-43105222#0" number="1138" />
+        <flow id="WatanabeDorikita_B_0800" from="-217018808#7" number="188" />
+        <flow id="WatanabeDorikita_D_0800" from="217018808#4" number="419" />
+        <flow id="WatanabeDori1_A_0800" from="-362162012#0" number="955" />
+        <flow id="WatanabeDori1_C_0800" from="186154251#1" number="911" />
+        <flow id="WatanabeDori1_D_0800" from="-220469#0" number="1429" />
+        <flow id="Nihonginkoumae_A_0800" from="-96531331#0" number="17" />
+        <flow id="Fukuokashiyakushoiriguchi_C_0800" from="68756861#2" number="228" />
+        <flow id="Chikkohommachi_A_0800" from="437726194#0" number="157" />
+        <flow id="Chikkohommachi_B_0800" from="-40745158#1" number="1517" />
+        <flow id="Chikkohommachi_D_0800" from="-42762530#1" number="1304" />
+        <flow id="Kuramoto_C_0800" from="-224049" number="1309" />
+        <flow id="Gofukumachi_C_0800" from="-39528682#0" number="740" />
+        <flow id="Gionmachi_B_0800" from="209367163" number="589" />
+        <flow id="Hakataekibasutaminarumae_B1_0800" from="41177844" number="563" />
+        <flow id="Hakataekibasutaminarumae_B2_0800" from="45245576" number="137" />
+        <!-- <flow id="Hakataekibasutaminarumae_C2_0800" from="178150954#2" number="263" /> -->
+        <flow id="Hakataekihakataguchi_C2_0800" from="194289096#2" number="213" />
+        <flow id="Hakataekimae3_B_0800" from="-40745201#1" number="1066" />
+        <flow id="Hakataekimae3_C_0800" from="41118349#9" number="1076" />
+
+    </interval>
+
+    <!-- 13:00 -->
+    <interval begin="46800" end="50399">
+        <flow id="TaishoDori_IntoB_1300" from="210342326#0" number="1089" />
+        <flow id="Akasaka_IntoB_1300" from="374632640#2" number="501" />
+        <flow id="Kego_A_1300" from="493376596#1" number="828" />
+        <flow id="Kego_B_1300" from="-41720513#0" number="890" />
+        <flow id="Kego_D_1300" from="68757112#12" number="601" />
+        <flow id="Nanotsuguchi_A_1300" from="61460560#2" number="1158" />
+        <flow id="Nanotsuguchi_B_1300" from="46679467#4" number="1223" />
+        <flow id="Nanotsuguchi_D_1300" from="-43105222#0" number="1124" />
+        <flow id="WatanabeDorikita_B_1300" from="-217018808#7" number="366" />
+        <flow id="WatanabeDorikita_D_1300" from="217018808#4" number="317" />
+        <flow id="WatanabeDori1_A_1300" from="-362162012#0" number="1040" />
+        <flow id="WatanabeDori1_C_1300" from="186154251#1" number="1226" />
+        <flow id="WatanabeDori1_D_1300" from="-220469#0" number="1299" />
+        <flow id="Nihonginkoumae_A_1300" from="-96531331#0" number="29" />
+        <flow id="Fukuokashiyakushoiriguchi_C_1300" from="68756861#2" number="418" />
+        <flow id="Chikkohommachi_A_1300" from="437726194#0" number="163" />
+        <flow id="Chikkohommachi_B_1300" from="-40745158#1" number="1310" />
+        <flow id="Chikkohommachi_D_1300" from="-42762530#1" number="1197" />
+        <flow id="Kuramoto_C_1300" from="-224049" number="1323" />
+        <flow id="Gofukumachi_C_1300" from="-39528682#0" number="749" />
+        <flow id="Gionmachi_B_1300" from="209367163" number="509" />
+        <flow id="Hakataekibasutaminarumae_B1_1300" from="41177844" number="666" />
+        <flow id="Hakataekibasutaminarumae_B2_1300" from="45245576" number="130" />
+        <!-- <flow id="Hakataekibasutaminarumae_C2_1300" from="178150954#2" number="321" /> -->
+        <flow id="Hakataekihakataguchi_C2_1300" from="194289096#2" number="300" />
+        <flow id="Hakataekimae3_B_1300" from="-40745201#1" number="1161" />
+        <flow id="Hakataekimae3_C_1300" from="41118349#9" number="1014" />
+
+    </interval>
+
+    <!-- 14:00 -->
+    <interval begin="50400" end="53999">
+        <flow id="TaishoDori_IntoB_1400" from="210342326#0" number="1155" />
+        <flow id="Akasaka_IntoB_1400" from="374632640#2" number="518" />
+        <flow id="Kego_A_1400" from="493376596#1" number="815" />
+        <flow id="Kego_B_1400" from="-41720513#0" number="918" />
+        <flow id="Kego_D_1400" from="68757112#12" number="628" />
+        <flow id="Nanotsuguchi_A_1400" from="61460560#2" number="758" />
+        <flow id="Nanotsuguchi_B_1400" from="46679467#4" number="1545" />
+        <flow id="Nanotsuguchi_D_1400" from="-43105222#0" number="1107" />
+        <flow id="WatanabeDorikita_B_1400" from="-217018808#7" number="386" />
+        <flow id="WatanabeDorikita_D_1400" from="217018808#4" number="312" />
+        <flow id="WatanabeDori1_A_1400" from="-362162012#0" number="1103" />
+        <flow id="WatanabeDori1_C_1400" from="186154251#1" number="1232" />
+        <flow id="WatanabeDori1_D_1400" from="-220469#0" number="1217" />
+        <flow id="Nihonginkoumae_A_1400" from="-96531331#0" number="36" />
+        <flow id="Fukuokashiyakushoiriguchi_C_1400" from="68756861#2" number="415" />
+        <flow id="Chikkohommachi_A_1400" from="437726194#0" number="193" />
+        <flow id="Chikkohommachi_B_1400" from="-40745158#1" number="1458" />
+        <flow id="Chikkohommachi_D_1400" from="-42762530#1" number="1325" />
+        <flow id="Kuramoto_C_1400" from="-224049" number="1331" />
+        <flow id="Gofukumachi_C_1400" from="-39528682#0" number="812" />
+        <flow id="Gionmachi_B_1400" from="209367163" number="552" />
+        <flow id="Hakataekibasutaminarumae_B1_1400" from="41177844" number="695" />
+        <flow id="Hakataekibasutaminarumae_B2_1400" from="45245576" number="117" />
+        <!-- <flow id="Hakataekibasutaminarumae_C2_1400" from="178150954#2" number="369" /> -->
+        <flow id="Hakataekihakataguchi_C2_1400" from="194289096#2" number="376" />
+        <flow id="Hakataekimae3_B_1400" from="-40745201#1" number="1081" />
+        <flow id="Hakataekimae3_C_1400" from="41118349#9" number="1036" />
+
+    </interval>
+
+
+</flows>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 金 11/24 03:07:37 2017 by Netedit Version 0.29.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="test.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/fujii/Desktop/function_test/sim_space/new.net.xml"/>
+    </output>
+
+    <processing>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+        <junctions.corner-detail value="0"/>
+    </processing>
+
+    <visualisation>
+        <registry-viewport value="true"/>
+    </visualisation>
+
+</configuration>
+-->
+
+<net version="0.27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-612979.92,-3718000.53" convBoundary="0.00,0.00,148.66,58.99" origBoundary="130.217646,33.595759,130.219249,33.596277" projParameter="+proj=utm +zone=52 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <edge id="-43211#0" from="-41715" to="-41719" priority="1" type="highway.corridor" spreadType="center" shape="146.33,58.99 147.55,47.09 130.94,45.27">
+        <lane id="-43211#0_0" index="0" allow="pedestrian" speed="2.78" length="28.67" width="2.00" shape="146.33,58.99 147.55,47.09 133.46,45.55"/>
+    </edge>
+    <edge id="-43211#1" from="-41719" to="-41723" priority="1" type="highway.corridor" spreadType="center" shape="130.94,45.27 118.86,43.95 89.46,39.07">
+        <lane id="-43211#1_0" index="0" allow="pedestrian" speed="2.78" length="41.95" width="2.00" shape="128.49,45.00 118.86,43.95 91.95,39.48"/>
+    </edge>
+    <edge id="-43211#2" from="-41723" to="-41727" priority="1" type="highway.corridor" spreadType="center" shape="89.46,39.07 78.57,36.80 66.00,34.05">
+        <lane id="-43211#2_0" index="0" allow="pedestrian" speed="2.78" length="23.99" width="2.00" shape="87.00,38.56 78.57,36.80 68.44,34.58"/>
+    </edge>
+    <edge id="-43211#3" from="-41727" to="-41731" priority="1" type="highway.corridor" spreadType="center" shape="66.00,34.05 35.90,26.50 24.98,23.06">
+        <lane id="-43211#3_0" index="0" allow="pedestrian" speed="2.78" length="42.48" width="2.00" shape="63.54,33.43 35.90,26.50 27.35,23.81"/>
+    </edge>
+    <edge id="-43211#4" from="-41731" to="-41733" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-43211#4_0" index="0" allow="pedestrian" speed="2.78" length="27.51" width="2.00" shape="22.58,22.32 -0.34,15.29"/>
+    </edge>
+    <edge id="-43213#0" from="-41731" to="-41735" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-43213#0_0" index="0" allow="pedestrian" speed="2.78" length="18.16" width="2.00" shape="25.69,20.65 29.41,8.14"/>
+    </edge>
+    <edge id="-43213#1" from="-41735" to="-41737" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-43213#1_0" index="0" allow="pedestrian" speed="2.78" length="15.79" width="2.00" shape="27.89,4.78 15.41,-0.00"/>
+    </edge>
+    <edge id="-43215#0" from="-41735" to="-41743" priority="1" type="highway.corridor" spreadType="center" shape="30.15,5.65 46.29,12.14 47.20,9.11 69.82,16.26">
+        <lane id="-43215#0_0" index="0" allow="pedestrian" speed="2.78" length="44.28" width="2.00" shape="32.56,6.62 46.29,12.14 47.20,9.11 67.52,15.53"/>
+    </edge>
+    <edge id="-43215#1" from="-41743" to="-41749" priority="1" type="highway.corridor" spreadType="center" shape="69.82,16.26 79.77,19.57 80.34,17.18 93.06,20.52">
+        <lane id="-43215#1_0" index="0" allow="pedestrian" speed="2.78" length="26.09" width="2.00" shape="72.30,17.09 79.77,19.57 80.34,17.18 90.70,19.90"/>
+    </edge>
+    <edge id="-43215#2" from="-41749" to="-41755" priority="1" type="highway.corridor" spreadType="center" shape="93.06,20.52 117.45,26.75 117.82,23.69 133.60,26.73">
+        <lane id="-43215#2_0" index="0" allow="pedestrian" speed="2.78" length="44.33" width="2.00" shape="95.54,21.15 117.45,26.75 117.82,23.69 131.19,26.27"/>
+    </edge>
+    <edge id="-43215#3" from="-41755" to="-41703" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-43215#3_0" index="0" allow="pedestrian" speed="2.78" length="15.34" width="2.00" shape="136.10,27.21 148.66,29.63"/>
+    </edge>
+    <edge id="-43217" from="-41727" to="-41743" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-43217_0" index="0" allow="pedestrian" speed="2.78" length="18.20" width="2.00" shape="66.53,31.57 69.27,18.82"/>
+    </edge>
+    <edge id="-43219" from="-41723" to="-41749" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-43219_0" index="0" allow="pedestrian" speed="2.78" length="18.90" width="2.00" shape="89.94,36.59 92.57,23.03"/>
+    </edge>
+    <edge id="-43221" from="-41755" to="-41719" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-43221_0" index="0" allow="pedestrian" speed="2.78" length="18.73" width="2.00" shape="133.24,29.25 131.30,42.76"/>
+    </edge>
+    <edge id="-45793#0" from="-45788" to="-45792" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-45793#0_0" index="0" allow="pedestrian" speed="2.78" length="44.20" width="2.00" shape="0.38,0.18 37.67,17.86"/>
+    </edge>
+    <edge id="-45793#1" from="-45792" to="-45794" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-45793#1_0" index="0" allow="pedestrian" speed="2.78" length="3.12" width="2.00" shape="38.85,21.19 38.58,21.74"/>
+    </edge>
+    <edge id="-45826#0" from="-45792" to="-45825" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-45826#0_0" index="0" allow="pedestrian" speed="2.78" length="6.07" width="2.00" shape="41.01,16.67 41.46,15.72"/>
+    </edge>
+    <edge id="-45826#1" from="-45825" to="-45827" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-45826#1_0" index="0" allow="pedestrian" speed="2.78" length="12.38" width="2.00" shape="43.60,11.21 47.83,2.26"/>
+    </edge>
+    <edge id="-45834#0" from="-45825" to="-45835" priority="1" type="highway.corridor" spreadType="center" shape="42.54,13.45 50.40,17.35 87.80,32.04">
+        <lane id="-45834#0_0" index="0" allow="pedestrian" speed="2.78" length="48.96" width="2.00" shape="44.80,14.57 50.40,17.35 85.48,31.13"/>
+    </edge>
+    <edge id="-45834#1" from="-45835" to="-45837" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-45834#1_0" index="0" allow="pedestrian" speed="2.78" length="3.06" width="2.00" shape="90.13,33.02 90.62,33.23"/>
+    </edge>
+    <edge id="-45847" from="-45835" to="-45846" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-45847_0" index="0" allow="pedestrian" speed="2.78" length="4.64" width="2.00" shape="86.89,34.40 86.13,36.37"/>
+    </edge>
+    <edge id="gneE0" from="-41733" to="-45788" priority="1">
+        <lane id="gneE0_0" index="0" speed="13.89" length="16.78" shape="-1.65,14.34 -1.65,1.08"/>
+    </edge>
+
+    <junction id="-41703" type="unregulated" x="148.66" y="29.63" incLanes="-43215#3_0" intLanes="" shape="148.85,28.65 148.47,30.61"/>
+    <junction id="-41715" type="unregulated" x="146.33" y="58.99" incLanes="" intLanes="" shape="147.32,59.09 145.34,58.89"/>
+    <junction id="-41719" type="dead_end" x="130.94" y="45.27" incLanes="-43211#0_0 -43221_0" intLanes="" shape="133.35,46.54 133.57,44.55 132.29,42.90 130.31,42.62 128.60,44.01 128.38,46.00"/>
+    <junction id="-41723" type="dead_end" x="89.46" y="39.07" incLanes="-43211#1_0" intLanes="" shape="91.79,40.47 92.12,38.50 90.92,36.78 88.96,36.40 87.20,37.58 86.79,39.54"/>
+    <junction id="-41727" type="dead_end" x="66.00" y="34.05" incLanes="-43211#2_0" intLanes="" shape="68.22,35.56 68.65,33.61 67.51,31.78 65.55,31.36 63.78,32.46 63.30,34.40"/>
+    <junction id="-41731" type="dead_end" x="24.98" y="23.06" incLanes="-43211#3_0" intLanes="" shape="27.05,24.76 27.65,22.85 26.65,20.94 24.74,20.37 22.87,21.37 22.29,23.28"/>
+    <junction id="-41733" type="unregulated" x="0.00" y="15.40" incLanes="-43211#4_0" intLanes="" shape="-0.64,16.25 -0.05,14.34 -3.25,14.34"/>
+    <junction id="-41735" type="dead_end" x="30.15" y="5.65" incLanes="-43213#0_0" intLanes="" shape="32.19,7.55 32.93,5.69 28.24,3.85 27.53,5.72 28.45,7.86 30.37,8.43"/>
+    <junction id="-41737" type="unregulated" x="15.41" y="0.00" incLanes="-43213#1_0" intLanes="" shape="15.05,0.93 15.77,-0.93"/>
+    <junction id="-41743" type="dead_end" x="69.82" y="16.26" incLanes="-43215#0_0 -43217_0" intLanes="" shape="71.99,18.03 72.62,16.14 67.82,14.58 67.22,16.49 68.29,18.61 70.25,19.03"/>
+    <junction id="-41749" type="dead_end" x="93.06" y="20.52" incLanes="-43215#1_0 -43219_0" intLanes="" shape="95.29,22.12 95.79,20.18 90.96,18.93 90.45,20.87 91.59,22.84 93.55,23.22"/>
+    <junction id="-41755" type="dead_end" x="133.60" y="26.73" incLanes="-43215#2_0" intLanes="" shape="135.91,28.19 136.29,26.23 131.38,25.28 131.00,27.25 132.25,29.11 134.23,29.40"/>
+    <junction id="-45788" type="unregulated" x="0.00" y="0.00" incLanes="gneE0_0" intLanes="" shape="-3.25,1.08 -0.05,1.08 0.81,-0.72"/>
+    <junction id="-45792" type="dead_end" x="39.94" y="18.93" incLanes="-45793#0_0" intLanes="" shape="41.91,17.10 40.11,16.24 38.10,16.95 37.25,18.76 37.95,20.75 39.75,21.62"/>
+    <junction id="-45794" type="unregulated" x="38.58" y="21.74" incLanes="-45793#1_0" intLanes="" shape="39.48,22.18 37.68,21.30"/>
+    <junction id="-45825" type="dead_end" x="42.54" y="13.45" incLanes="-45826#0_0" intLanes="" shape="44.35,15.46 45.24,13.67 44.50,11.63 42.70,10.78 40.56,15.30 42.36,16.15"/>
+    <junction id="-45827" type="unregulated" x="47.83" y="2.26" incLanes="-45826#1_0" intLanes="" shape="46.93,1.83 48.73,2.69"/>
+    <junction id="-45835" type="dead_end" x="87.80" y="32.04" incLanes="-45834#0_0" intLanes="" shape="89.74,33.95 90.52,32.10 85.84,30.20 85.11,32.06 85.96,34.04 87.82,34.76"/>
+    <junction id="-45837" type="unregulated" x="90.62" y="33.23" incLanes="-45834#1_0" intLanes="" shape="91.01,32.31 90.23,34.15"/>
+    <junction id="-45846" type="unregulated" x="86.13" y="36.37" incLanes="-45847_0" intLanes="" shape="87.06,36.73 85.20,36.01"/>
+
+</net>

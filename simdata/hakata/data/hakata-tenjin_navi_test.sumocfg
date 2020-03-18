@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="hakata-tenjin.net.xml" />
+        <route-files value="routes.rou.xml, vehicle_with_navi.rou.xml" />
+        <additional-files value="station.add.xml, subway-nanakuma-line.add.xml, subway-kuko-hakozaki-line.add.xml, hakata-tenjin.poly.xml, parking_area.add.xml" />
+    </input>
+    <time>
+        <begin value="25200" />
+        <end value="34200" />
+    </time>
+</configuration>    

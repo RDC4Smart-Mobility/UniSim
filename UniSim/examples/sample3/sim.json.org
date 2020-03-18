@@ -1,0 +1,22 @@
+{
+    "SUMO": {
+        "W2-7F": {
+            "addr": "",
+            "port": "8873",
+            "cfg": "./data/west2-7F.sumocfg",
+            "net": "./data/west2-7F.net.xml"
+        },
+        "W3-7F": {
+            "addr": "",
+            "port": "8874",
+            "cfg": "./data/west3-7F.sumocfg",
+            "net": "./data/west3-7F.net.xml"
+        },
+        "W4-6F": {
+            "addr": "",
+            "port": "8875",
+            "cfg": "./data/west4-6F.sumocfg",
+            "net": "./data/west4-6F.net.xml"
+        }
+    }
+}

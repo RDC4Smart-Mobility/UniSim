@@ -1,0 +1,390 @@
+{
+    "30": {
+        "color": "255,168,64", 
+        "depart": 1800, 
+        "route": "-43221 -43211#1 -43211#2", 
+        "type": "pedestrian"
+    }, 
+    "28": {
+        "color": "255,168,64", 
+        "depart": 1680, 
+        "route": "-43215#3 -43221", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "29": {
+        "color": "255,168,64", 
+        "depart": 1740, 
+        "route": "-43217 -43211#2 -43219 -43215#1", 
+        "type": "pedestrian", 
+        "app": "app2"
+    }, 
+    "35": {
+        "color": "0,0,255", 
+        "depart": 2100, 
+        "route": "-43211#0 -43211#1 -43211#2 -43211#3 -43213#0 -43213#1", 
+        "type": "pedestrian"
+    }, 
+    "34": {
+        "color": "64,128,255", 
+        "depart": 2040, 
+        "route": "-43215#0 -43213#0", 
+        "type": "pedestrian"
+    }, 
+    "24": {
+        "color": "255,168,64", 
+        "depart": 1440, 
+        "route": "-43219 -43211#1 -43221 -43215#3", 
+        "type": "pedestrian"
+    }, 
+    "25": {
+        "color": "255,168,64", 
+        "depart": 1500, 
+        "route": "-43211#1 -43211#2 -43211#3 -43211#4", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "26": {
+        "color": "255,168,64", 
+        "depart": 1560, 
+        "route": "-43217 -43211#2 -43211#1", 
+        "type": "pedestrian"
+    }, 
+    "27": {
+        "color": "255,168,64", 
+        "depart": 1620, 
+        "route": "-43215#0 -43213#0 -43211#3 -43211#2 -43211#1 -43211#0", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "20": {
+        "color": "255,168,64", 
+        "depart": 1200, 
+        "route": "-43215#3 -43215#2 -43215#1 -43217", 
+        "type": "pedestrian"
+    }, 
+    "21": {
+        "color": "0,0,255", 
+        "depart": 1260, 
+        "route": "-43221 -43215#2 -43219", 
+        "type": "pedestrian"
+    }, 
+    "48": {
+        "color": "64,128,255", 
+        "depart": 2880, 
+        "route": "-43213#1 -43213#0 -43211#3 -43211#2 -43211#1", 
+        "type": "pedestrian"
+    }, 
+    "49": {
+        "color": "255,168,64", 
+        "depart": 2940, 
+        "route": "-43215#1 -43215#0 -43213#1", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "46": {
+        "color": "64,128,255", 
+        "depart": 2760, 
+        "route": "-43215#0 -43215#1 -43215#2 -43215#3", 
+        "type": "pedestrian"
+    }, 
+    "23": {
+        "color": "255,168,64", 
+        "depart": 1380, 
+        "route": "-43221 -43211#1", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "44": {
+        "color": "255,168,64", 
+        "depart": 2640, 
+        "route": "-43221 -43215#2", 
+        "type": "pedestrian"
+    }, 
+    "45": {
+        "color": "255,168,64", 
+        "depart": 2700, 
+        "route": "-43215#2 -43215#1 -43215#0", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "42": {
+        "color": "255,168,64", 
+        "depart": 2520, 
+        "route": "-43213#0 -43211#4", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "43": {
+        "color": "255,168,64", 
+        "depart": 2580, 
+        "route": "-43215#3", 
+        "type": "pedestrian"
+    }, 
+    "40": {
+        "color": "255,168,64", 
+        "depart": 2400, 
+        "route": "-43221 -43215#2 -43219", 
+        "type": "pedestrian", 
+        "app": "app2"
+    }, 
+    "41": {
+        "color": "64,128,255", 
+        "depart": 2460, 
+        "route": "-43215#2 -43215#3", 
+        "type": "pedestrian"
+    }, 
+    "1": {
+        "color": "32,32,32", 
+        "depart": 60, 
+        "route": "-43219 -43211#2 -43211#3 -43213#0", 
+        "type": "pedestrian",
+        "agent": true,
+        "app": "app"
+    }, 
+    "0": {
+        "color": "64,128,255", 
+        "depart": 0, 
+        "route": "-43211#3 -43211#4 EP:-41733", 
+        "type": "pedestrian",
+        "app": "app"
+    }, 
+    "3": {
+        "color": "255,168,64", 
+        "depart": 180, 
+        "route": "-43213#1 -43213#0", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "2": {
+        "color": "255,168,64", 
+        "depart": 120, 
+        "route": "-43217 -43211#2 -43219", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "5": {
+        "color": "32,32,32", 
+        "depart": 300, 
+        "route": "-43213#1 -43213#0", 
+        "type": "pedestrian", 
+        "agent": true
+    }, 
+    "4": {
+        "color": "255,168,64", 
+        "depart": 240, 
+        "route": "-43215#1", 
+        "type": "pedestrian"
+    }, 
+    "7": {
+        "color": "255,168,64", 
+        "depart": 420, 
+        "route": "-43213#0 -43211#3 -43217 -43215#0", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "6": {
+        "color": "64,128,255", 
+        "depart": 360, 
+        "route": "-43213#1 -43213#0 -43211#3 -43211#2", 
+        "type": "pedestrian"
+    }, 
+    "9": {
+        "color": "64,128,255", 
+        "depart": 540, 
+        "route": "-43221 -43215#3", 
+        "type": "pedestrian"
+    }, 
+    "8": {
+        "color": "255,168,64", 
+        "depart": 480, 
+        "route": "-43213#1 -43215#0", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "18": {
+        "color": "255,168,64", 
+        "depart": 1080, 
+        "route": "-43215#3 -43215#2 -43215#1 -43215#0", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "13": {
+        "color": "0,0,255", 
+        "depart": 780, 
+        "route": "-43221 -43211#1 -43211#2", 
+        "type": "pedestrian"
+    }, 
+    "12": {
+        "color": "64,128,255", 
+        "depart": 720, 
+        "route": "-43217 -43211#2 -43219", 
+        "type": "pedestrian"
+    }, 
+    "17": {
+        "color": "255,168,64", 
+        "depart": 1020, 
+        "route": "-43211#0 -43211#1 -43219", 
+        "type": "pedestrian", 
+        "app": "app2"
+    }, 
+    "15": {
+        "color": "255,168,64", 
+        "depart": 900, 
+        "route": "-43211#4 -43211#3 -43211#2 -43211#1 -43221 -43215#2", 
+        "type": "pedestrian"
+    }, 
+    "32": {
+        "color": "255,168,64", 
+        "depart": 1920, 
+        "route": "-43215#3 -43221", 
+        "type": "pedestrian"
+    }, 
+    "58": {
+        "color": "64,128,255", 
+        "depart": 3480, 
+        "route": "-43219 -43211#2", 
+        "type": "pedestrian"
+    }, 
+    "11": {
+        "color": "255,168,64", 
+        "depart": 660, 
+        "route": "-43211#3 -43211#2", 
+        "type": "pedestrian"
+    }, 
+    "10": {
+        "color": "255,168,64", 
+        "depart": 600, 
+        "route": "-43215#0 -43215#1 -43219", 
+        "type": "pedestrian", 
+        "app": "app2"
+    }, 
+    "39": {
+        "color": "255,168,64", 
+        "depart": 2340, 
+        "route": "-43211#4 -43211#3 -43211#2 -43211#1 -43221 -43215#3", 
+        "type": "pedestrian", 
+        "app": "app2"
+    }, 
+    "38": {
+        "color": "255,168,64", 
+        "depart": 2280, 
+        "route": "-43211#0 -43211#1", 
+        "type": "pedestrian"
+    }, 
+    "59": {
+        "color": "64,128,255", 
+        "depart": 3540, 
+        "route": "-43217 -43215#0", 
+        "type": "pedestrian"
+    }, 
+    "22": {
+        "color": "255,168,64", 
+        "depart": 1320, 
+        "route": "-43211#4 -43211#3 -43211#2 -43211#1 -43221 -43215#2", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "14": {
+        "color": "64,128,255", 
+        "depart": 840, 
+        "route": "-43217 -43211#2 -43211#1", 
+        "type": "pedestrian"
+    }, 
+    "16": {
+        "color": "255,168,64", 
+        "depart": 960, 
+        "route": "-43221 -43211#0", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "19": {
+        "color": "64,128,255", 
+        "depart": 1140, 
+        "route": "-43211#3 -43211#2 -43219", 
+        "type": "pedestrian"
+    }, 
+    "54": {
+        "color": "255,168,64", 
+        "depart": 3240, 
+        "route": "-43219 -43211#1 -43211#0", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "31": {
+        "color": "64,128,255", 
+        "depart": 1860, 
+        "route": "-43215#3 -43215#2 -43215#1 -43215#0", 
+        "type": "pedestrian"
+    }, 
+    "56": {
+        "color": "255,168,64", 
+        "depart": 3360, 
+        "route": "-43211#0 -43211#1 -43211#2 -43217", 
+        "type": "pedestrian"
+    }, 
+    "51": {
+        "color": "255,168,64", 
+        "depart": 3060, 
+        "route": "-43211#2 -43219 -43215#1", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "36": {
+        "color": "255,168,64", 
+        "depart": 2160, 
+        "route": "-43213#0 -43211#3 -43211#2 -43211#1 -43211#0", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "53": {
+        "color": "64,128,255", 
+        "depart": 3180, 
+        "route": "-43215#2 -43219 -43211#2 -43211#3 -43211#4", 
+        "type": "pedestrian"
+    }, 
+    "52": {
+        "color": "255,168,64", 
+        "depart": 3120, 
+        "route": "-43221 -43215#2", 
+        "type": "pedestrian", 
+        "app": "app2"
+    }, 
+    "33": {
+        "color": "0,0,255", 
+        "depart": 1980, 
+        "route": "-43211#0 -43211#1 -43211#2 -43217 -43215#0", 
+        "type": "pedestrian"
+    }, 
+    "55": {
+        "color": "64,128,255", 
+        "depart": 3300, 
+        "route": "-43215#0 -43217", 
+        "type": "pedestrian"
+    }, 
+    "37": {
+        "color": "255,168,64", 
+        "depart": 2220, 
+        "route": "-43211#2 -43211#3 -43213#0 -43213#1", 
+        "type": "pedestrian", 
+        "app": "app1"
+    }, 
+    "47": {
+        "color": "0,0,255", 
+        "depart": 2820, 
+        "route": "-43221 -43215#3", 
+        "type": "pedestrian"
+    }, 
+    "57": {
+        "color": "64,128,255", 
+        "depart": 3420, 
+        "route": "-43211#0 -43221 -43215#3", 
+        "type": "pedestrian"
+    }, 
+    "50": {
+        "color": "64,128,255", 
+        "depart": 3000, 
+        "route": "-43211#4", 
+        "type": "pedestrian"
+    }
+}

@@ -1,0 +1,101 @@
+<!-- Kego (changed the edge from "A", to the edge on the west side) -->
+
+<flows>
+    <!-- 07:00- -->
+    <interval begin="25200" end="28799">
+        <flow id="Kego_A_0700" from="493376596#1" number="1147" />
+        <flow id="Kego_B_0700" from="-41720513#0" number="474" />
+        <!-- <flow id="Kego_C_0700" from="-503962649#0" number="430" /> -->
+        <flow id="Kego_D_0700" from="68757112#12" number="565" />
+    </interval>
+
+    <!-- 08:00 -->
+    <interval begin="28800" end="32399">
+        <flow id="Kego_A_0800" from="493376596#1" number="1089" />
+        <flow id="Kego_B_0800" from="-41720513#0" number="584" />
+        <!-- <flow id="Kego_C_0800" from="-503962649#0" number="451" /> -->
+        <flow id="Kego_D_0800" from="68757112#12" number="623" />
+    </interval>
+
+    <!-- 09:00 -->
+    <interval begin="32400" end="35999">
+        <flow id="Kego_A_0900" from="493376596#1" number="1042" />
+        <flow id="Kego_B_0900" from="-41720513#0" number="671" />
+        <!-- <flow id="Kego_C_0900" from="-503962649#0" number="520" /> -->
+        <flow id="Kego_D_0900" from="68757112#12" number="628" />
+    </interval>
+
+    <!-- 10:00 -->
+    <interval begin="36000" end="39599">
+        <flow id="Kego_A_1000" from="493376596#1" number="855" />
+        <flow id="Kego_B_1000" from="-41720513#0" number="823" />
+        <!-- <flow id="Kego_C_1000" from="-503962649#0" number="634" /> -->
+        <flow id="Kego_D_1000" from="68757112#12" number="619" />
+    </interval>
+
+    <!-- 11:00 -->
+    <interval begin="39600" end="43199">
+        <flow id="Kego_A_1100" from="493376596#1" number="849" />
+        <flow id="Kego_B_1100" from="-41720513#0" number="825" />
+        <!-- <flow id="Kego_C_1100" from="-503962649#0" number="654" /> -->
+        <flow id="Kego_D_1100" from="68757112#12" number="674" />
+    </interval>
+
+    <!-- 12:00 -->
+    <interval begin="43200" end="46799">
+        <flow id="Kego_A_1200" from="493376596#1" number="771" />
+        <flow id="Kego_B_1200" from="-41720513#0" number="802" />
+        <!-- <flow id="Kego_C_1200" from="-503962649#0" number="642" /> -->
+        <flow id="Kego_D_1200" from="68757112#12" number="593" />
+    </interval>
+
+    <!-- 13:00 -->
+    <interval begin="46800" end="50399">
+        <flow id="Kego_A_1300" from="493376596#1" number="828" />
+        <flow id="Kego_B_1300" from="-41720513#0" number="890" />
+        <!-- <flow id="Kego_C_1300" from="-503962649#0" number="699" /> -->
+        <flow id="Kego_D_1300" from="68757112#12" number="601" />
+    </interval>
+
+    <!-- 14:00 -->
+    <interval begin="50400" end="53999">
+        <flow id="Kego_A_1400" from="493376596#1" number="815" />
+        <flow id="Kego_B_1400" from="-41720513#0" number="918" />
+        <!-- <flow id="Kego_C_1400" from="-503962649#0" number="703" /> -->
+        <flow id="Kego_D_1400" from="68757112#12" number="628" />
+    </interval>
+
+    <!-- 15:00 -->
+    <interval begin="54000" end="57599">
+        <flow id="Kego_A_1500" from="493376596#1" number="834" />
+        <flow id="Kego_B_1500" from="-41720513#0" number="936" />
+        <!-- <flow id="Kego_C_1500" from="-503962649#0" number="763" /> -->
+        <flow id="Kego_D_1500" from="68757112#12" number="562" />
+    </interval>
+
+    <!-- 16:00 -->
+    <interval begin="57600" end="61199">
+        <flow id="Kego_A_1600" from="493376596#1" number="750" />
+        <flow id="Kego_B_1600" from="-41720513#0" number="932" />
+        <!-- <flow id="Kego_C_1600" from="-503962649#0" number="709" /> -->
+        <flow id="Kego_D_1600" from="68757112#12" number="639" />
+    </interval>
+
+    <!-- 17:00 -->
+    <interval begin="61200" end="64799">
+        <flow id="Kego_A_1700" from="493376596#1" number="717" />
+        <flow id="Kego_B_1700" from="-41720513#0" number="892" />
+        <!-- <flow id="Kego_C_1700" from="-503962649#0" number="789" /> -->
+        <flow id="Kego_D_1700" from="68757112#12" number="528" />
+    </interval>
+
+    <!-- 18:00 -->
+    <interval begin="64800" end="68399">
+        <flow id="Kego_A_1800" from="493376596#1" number="713" />
+        <flow id="Kego_B_1800" from="-41720513#0" number="923" />
+        <!-- <flow id="Kego_C_1800" from="-503962649#0" number="775" /> -->
+        <flow id="Kego_D_1800" from="68757112#12" number="500" />
+    </interval>
+
+</flows>
+

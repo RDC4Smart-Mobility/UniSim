@@ -1,0 +1,25 @@
+{
+    "sim": {
+        "Parking1": {
+            "entrance": "p1en",
+            "exit": "p1ex",
+            "capacity": 40,
+            "frequency": 10,
+            "provide_info_port": [4001]
+        },
+        "Parking2": {
+            "entrance": "p2en",
+            "exit": "p2ex",
+            "capacity": 40,
+            "frequency": 10,
+            "provide_info_port": [4002]
+        },
+        "Parking3": {
+            "entrance": "p3en",
+            "exit": "p3ex",
+            "capacity": 25,
+            "frequency": 10,
+            "provide_info_port": [4001, 4002]
+        }
+    }
+}

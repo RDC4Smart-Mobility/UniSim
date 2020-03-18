@@ -1,0 +1,84 @@
+(venv) rfujii-no-MacBook-Air:evaluation_data fujii$ python evaluation.py 
+Could not connect to TraCI server at localhost:8873 [Errno 61] Connection refused
+ Retrying in 1 seconds
+Loading configuration... done.
+***Starting server on port 8873 ***
+Loading net-file from './data3/osm.net.xml'... done (372ms).
+Loading additional-files from './data3/osm.poly.xml'... done (156ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 3600.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 318913ms
+ Real time factor: 11.2883
+ UPS: 2558.409347
+Vehicles: 
+ Inserted: 4853
+ Running: 227
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 2913.60
+ Duration: 171.42
+ WaitingTime: 3.86
+ TimeLoss: 33.74
+ DepartDelay: -0.13
+
+DijkstraRouterTT answered 6662 queries and explored 541.78 edges on average.
+DijkstraRouterTT spent 1087ms answering queries (0.16ms on average).
+(venv) rfujii-no-MacBook-Air:evaluation_data fujii$ python evaluation.py 
+Could not connect to TraCI server at localhost:8873 [Errno 61] Connection refused
+ Retrying in 1 seconds
+Loading configuration... done.
+***Starting server on port 8873 ***
+Loading net-file from './data3/osm.net.xml'... done (385ms).
+Loading additional-files from './data3/osm.poly.xml'... done (138ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 3600.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 319122ms
+ Real time factor: 11.281
+ UPS: 2556.733788
+Vehicles: 
+ Inserted: 4853
+ Running: 227
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 2913.60
+ Duration: 171.42
+ WaitingTime: 3.86
+ TimeLoss: 33.74
+ DepartDelay: -0.13
+
+DijkstraRouterTT answered 6662 queries and explored 541.78 edges on average.
+DijkstraRouterTT spent 1125ms answering queries (0.17ms on average).
+(venv) rfujii-no-MacBook-Air:evaluation_data fujii$ python evaluation.py 
+Could not connect to TraCI server at localhost:8873 [Errno 61] Connection refused
+ Retrying in 1 seconds
+Loading configuration... done.
+***Starting server on port 8873 ***
+Loading net-file from './data3/osm.net.xml'... done (372ms).
+Loading additional-files from './data3/osm.poly.xml'... done (138ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 3600.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 317571ms
+ Real time factor: 11.336
+ UPS: 2569.220741
+Vehicles: 
+ Inserted: 4853
+ Running: 227
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 2913.60
+ Duration: 171.42
+ WaitingTime: 3.86
+ TimeLoss: 33.74
+ DepartDelay: -0.13
+
+DijkstraRouterTT answered 6662 queries and explored 541.78 edges on average.
+DijkstraRouterTT spent 1184ms answering queries (0.18ms on average).

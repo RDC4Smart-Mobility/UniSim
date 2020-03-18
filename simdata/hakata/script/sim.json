@@ -1,0 +1,10 @@
+{
+    "SUMO": {
+        "sim": {
+            "addr": "localhost",
+            "port": "8873",
+            "cfg": "../data/hakata-tenjin_navi_test.sumocfg",
+            "net": "../data/hakata-tenjin.net.xml"
+        }
+    }
+}

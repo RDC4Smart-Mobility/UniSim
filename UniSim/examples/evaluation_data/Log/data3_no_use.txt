@@ -1,0 +1,75 @@
+rfujii-no-MacBook-Air:evaluation_data fujii$ sumo -c ./data3/osm.sumocfg 
+Loading configuration... done.
+Loading net-file from './data3/osm.net.xml'... done (377ms).
+Loading additional-files from './data3/osm.poly.xml'... done (150ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 3600.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 11994ms
+ Real time factor: 300.15
+ UPS: 68026.513257
+Vehicles: 
+ Inserted: 4853
+ Running: 227
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 2913.60
+ Duration: 171.42
+ WaitingTime: 3.86
+ TimeLoss: 33.74
+ DepartDelay: -0.13
+
+DijkstraRouterTT answered 6662 queries and explored 541.78 edges on average.
+DijkstraRouterTT spent 1088ms answering queries (0.16ms on average).
+rfujii-no-MacBook-Air:evaluation_data fujii$ sumo -c ./data3/osm.sumocfg 
+Loading configuration... done.
+Loading net-file from './data3/osm.net.xml'... done (376ms).
+Loading additional-files from './data3/osm.poly.xml'... done (130ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 3600.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 11851ms
+ Real time factor: 303.772
+ UPS: 68847.354654
+Vehicles: 
+ Inserted: 4853
+ Running: 227
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 2913.60
+ Duration: 171.42
+ WaitingTime: 3.86
+ TimeLoss: 33.74
+ DepartDelay: -0.13
+
+DijkstraRouterTT answered 6662 queries and explored 541.78 edges on average.
+DijkstraRouterTT spent 1087ms answering queries (0.16ms on average).
+rfujii-no-MacBook-Air:evaluation_data fujii$ sumo -c ./data3/osm.sumocfg 
+Loading configuration... done.
+Loading net-file from './data3/osm.net.xml'... done (378ms).
+Loading additional-files from './data3/osm.poly.xml'... done (135ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 3600.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 12010ms
+ Real time factor: 299.75
+ UPS: 67935.886761
+Vehicles: 
+ Inserted: 4853
+ Running: 227
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 2913.60
+ Duration: 171.42
+ WaitingTime: 3.86
+ TimeLoss: 33.74
+ DepartDelay: -0.13
+
+DijkstraRouterTT answered 6662 queries and explored 541.78 edges on average.
+DijkstraRouterTT spent 1115ms answering queries (0.17ms on average).

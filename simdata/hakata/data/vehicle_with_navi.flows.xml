@@ -1,0 +1,6 @@
+<flows>
+    <interval begin="25260" end="25300">
+        <flow id="veh_with_navi" from="-206636944#6" to="210342325#3" number="1" color="1,0,0" />
+        <flow id="hakata_guchi" from="179129062#1" to="520149463#1" number="1" color="1,0,0" />
+    </interval>
+</flows>

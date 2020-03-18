@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri Jan 13 14:35:13 2017 by SUMO polyconvert Version 0.27.1
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <location netOffset="-609901.35,-3715638.79" convBoundary="0.00,-6730.78,10109.12,7222.93" origBoundary="130.184271,33.513006,130.292266,33.639796" projParameter="+proj=utm +zone=52 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+    <poly id="100012599" type="amenity.parking" color="184,184,179" fill="1" layer="-1.00" shape="42.20,205.0 207.80,205.0 207.80,318.50 42.20,318.50 42.20,205.0"/>
+    <poly id="100012600" type="amenity.parking" color="184,184,179" fill="1" layer="-1.00" shape="554.50,205.0 718.20,205.0 718.20,318.50 554.50,318.50 554.50,205.0"/>
+    <poly id="100012601" type="amenity.parking" color="184,184,179" fill="1" layer="-1.00" shape="554.50,-28.3 721.40,-28.3 721.40,81.8 554.50,81.8 554.50,-28.3"/>
+</additional>

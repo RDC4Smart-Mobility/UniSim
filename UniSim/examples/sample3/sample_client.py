@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+from __future__ import division, print_function, absolute_import, unicode_literals
+
+import sys
+import socket
+from contextlib import closing
+
+from unisim import BaseCallApi
+from unisim import API
+
+class Client(BaseCallApi):
+
+    def event_handler(self, info):
+        if info["road"] == "-43211#3":
+                self._cmd = "get_parking"
+                return True
+
+    def get_parking(self, params={}):
+        params["url"] = self.url + "points/"
+        params["method"] = "GET"
+        return self.call_api(params)
+        
+    def operate_application(self, cmd):
+        if cmd == "get_parking":
+            self.get_parking({"id":1})
+        
+    def interpreter(self):
+        item = self.response[0]
+        self._res = item["edge"]
+
+
+if __name__ == '__main__':
+    pass

@@ -1,0 +1,10 @@
+{
+    "SUMO": {
+        "sim": {
+            "addr": "",
+            "port": "8873",
+            "cfg": "./data3/osm.sumocfg",
+            "net": "./data3/osm.net.xml"
+        }
+    }
+}

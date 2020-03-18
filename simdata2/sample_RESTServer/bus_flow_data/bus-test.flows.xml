@@ -1,0 +1,1016 @@
+<!-- Bus flows -->
+<flows>
+    <vType id="nishitetsu_bus" vClass="bus" color='cyan' />
+    <vType id="fukuoka_brt" vClass="bus" length="18.0" color="orange" guiShape="bus/flexible" />
+
+    <!-- 07:00 (25200) -->
+
+    <!-- houmu3 -->
+    <interval begin="25200" end="32400">
+        <flow id="houmu3_am" from="210342326#0"  to="39528682#4" number="8" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi2 -->
+    <interval begin="25200" end="32400">
+        <flow id="sumiyoshi2_am" from="175879333#5"  to="362162012#0" number="74" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi5 -->
+    <interval begin="25200" end="32400">
+        <flow id="sumiyoshi5_am" from="205014971#1"  to="41118349#4" number="24" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimae4-8 -->
+    <interval begin="25200" end="32400">
+        <flow id="ekimae4-8_am" from="41118349#4"  to="-221534#0" number="94" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kuramotoS3 -->
+    <interval begin="25200" end="32400">
+        <flow id="kuramotoS3_am" from="-223841" via="304520255#1" to="-175683579#6" number="1" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike2 -->
+    <interval begin="25200" end="32400">
+        <flow id="hasuike2_am" from="-47004448" via="201674695#0 201674695#4 32027234" to="268408808#3" number="6" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike5 -->
+    <interval begin="25200" end="32400">
+        <flow id="hasuike5_am" from="-47004448" via="201674695#0 201674695#4" to="201674695#8" number="13" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeA-4 -->
+    <interval begin="25200" end="32400">
+        <flow id="ekimaeA-4_am" from="32027234" via="-45778984#11 -161950324#1 -32027132" to="-503962649#2" number="11" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeB-1 -->
+    <interval begin="25200" end="32400">
+        <flow id="ekimaeB-1_am" from="32027234" via="175879333#5 362162012#0" to="175083056#1" number="81" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeC-1 -->
+    <interval begin="25200" end="32400">
+        <flow id="ekimaeC-1_am" from="186154225#1" via="40745201#1 194289107#0" to="194289098#1" number="24" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yuubinkyoku2 -->
+    <interval begin="25200" end="32400">
+        <flow id="yuubinkyoku2_am" from="302351410" via="304520255#1" to="43105234" number="63" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+
+    <!-- daimyou1 -->
+    <interval begin="25260" end="32400">
+        <flow id="daimyou1_am" from="374632640#3" via="258878959#0 39528682#0" to="39528682#4" number="57" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimae4-1 -->
+    <interval begin="25260" end="32400">
+        <flow id="ekimae4-1_am" from="41118349#4" via="41118349#11 -221534#0 169673064#0 169673064#5 201674727#1" to="169673056#2" number="23" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimae4-2 -->
+    <interval begin="25260" end="32400">
+        <flow id="ekimae4-2_am" from="41118349#4"  to="179129062#1" number="12" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike8 -->
+    <interval begin="25260" end="32400">
+        <flow id="hasuike8_am" from="-47004448" via="201674695#0 175150505#1" to="-258878959#0" number="6" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kego1 -->
+    <interval begin="25260" end="32400">
+        <flow id="kego1_am" from="-503962649#2"  to="-503962649#1" number="49" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeA-1 -->
+    <interval begin="25260" end="32400">
+        <flow id="ekimaeA-1_am" from="32027234" via="175879333#5 169516525 32008537#1" to="179084399#1" number="13" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yuubinkyoku4 -->
+    <interval begin="25260" end="32400">
+        <flow id="yuubinkyoku4_am" from="302351410" via="304520255#1" to="-175683579#6" number="20" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeA-3 -->
+    <interval begin="25260" end="32400">
+        <flow id="ekimaeA-3_am" from="32027234"  to="268408808#6" number="42" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+
+    <!-- ekimae4-7 -->
+    <interval begin="25320" end="32400">
+        <flow id="ekimae4-7_am" from="41118349#4"  to="210507356#0" number="24" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita5 -->
+    <interval begin="25320" end="32400">
+        <flow id="tenjinkita5_am" from="175081037#1" via="258878956#0 -520145812#1" to="-503962649#2" number="3" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sekijyou4 -->
+    <interval begin="25320" end="32400">
+        <flow id="sekijyou4_am" from="-40745158#1" via="44889592#1 179084434#5" to="175081037#1" number="11" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ishidou1 -->
+    <interval begin="25320" end="32400">
+        <flow id="ishidou1_am" from="175683579#6" via="304520257#1 -219773" to="210342328#0" number="9" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-4 -->
+    <interval begin="25320" end="32400">
+        <flow id="hakataBT-4_am" from="178150954#2" via="169673064#5 -46699042#8 -374632640#12" to="-374632640#3" number="34" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- yakuin1 -->
+    <interval begin="25380" end="32400">
+        <flow id="yakuin1_am" from="-175083056#1" via="169516525 32008537#1 258878959#0 39528682#0" to="43105230#0" number="5" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi3 -->
+    <interval begin="25380" end="32400">
+        <flow id="sumiyoshi3_am" from="205014971#1" via="169673064#0 169673064#5 39528682#0" to="39528682#4" number="8" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike7 -->
+    <interval begin="25380" end="32400">
+        <flow id="hasuike7_am" from="-47004448" via="201674706#0 304520257#1" to="341760062#1" number="10" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kego5 -->
+    <interval begin="25380" end="32400">
+        <flow id="kego5_am" from="503962649#2" via="-258878958#1 201674695#4" to="-222264#1" number="11" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yuubinkyoku1 -->
+    <interval begin="25380" end="32400">
+        <flow id="yuubinkyoku1_am" from="341760062#1" via="-219773" to="210342325#3" number="61" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yuubinkyoku3 -->
+    <interval begin="25380" end="32400">
+        <flow id="yuubinkyoku3_am" from="302351410" via="186154255#0" to="40745158#1" number="6" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- daimyou2 -->
+    <interval begin="25440" end="32400">
+        <flow id="daimyou2_am" from="374632640#3" via="258878959#0 201674695#0" to="201674695#8" number="45" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- takasago1 -->
+    <interval begin="25440" end="32400">
+        <flow id="takasago1_am" from="40745176#29" via="169516525 32008537#1 179084399#0" to="179084432#0" number="22" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kuramotoS2 -->
+    <interval begin="25440" end="32400">
+        <flow id="kuramotoS2_am" from="304520257#1"  to="341760062#1" number="39" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeC-2 -->
+    <interval begin="25440" end="32400">
+        <flow id="ekimaeC-2_am" from="186154225#1" via="40745201#1 -40273647#9" to="-40273647#1" number="5" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi10 -->
+    <interval begin="25440" end="32400">
+        <flow id="sumiyoshi10_am" from="205014971#1"  to="41118349#9" number="84" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- sumiyoshi6 -->
+    <interval begin="25500" end="32400">
+        <flow id="sumiyoshi6_am" from="175879333#5" via="169516525 32008537#1 179084399#0" to="179084432#0" number="29" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimae4-4 -->
+    <interval begin="25500" end="32400">
+        <flow id="ekimae4-4_am" from="41118349#4" via="169673064#0 169673064#5 39528682#0" to="39528682#0" number="8" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kuramotoS1 -->
+    <interval begin="25500" end="32400">
+        <flow id="kuramotoS1_am" from="304520257#1" via="304520257#1 -219773" to="210342328#0" number="37" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike9 -->
+    <interval begin="25500" end="32400">
+        <flow id="hasuike9_am" from="-47004448" via="-46699042#8 258878956#0 207916357#2" to="206789952#3" number="11" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- sumiyoshi1 -->
+    <interval begin="25560" end="32400">
+        <flow id="sumiyoshi1_am" from="205014971#1" via="169673064#0 169673064#5 201674727#1" to="169673058#0" number="13" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita4 -->
+    <interval begin="25560" end="32400">
+        <flow id="tenjinkita4_am" from="175081037#1" via="179084400#1 258878956#0 -520145812#1" to="-503962649#1" number="22" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita6 -->
+    <interval begin="25560" end="32400">
+        <flow id="tenjinkita6_am" from="175081037#1" via="258878956#0 207916357#2" to="206789952#3" number="15" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- tenjinkita1 -->
+    <interval begin="25620" end="32400">
+        <flow id="tenjinkita1_am" from="175081037#1" via="258878956#0 207916357#2" to="206789952#1" number="27" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-6 -->
+    <interval begin="25620" end="32400">
+        <flow id="hakataBT-6_am" from="178150954#2" via="175150505#1 -520145812#1" to="-503962649#2" number="29" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- houmu6 -->
+    <interval begin="25680" end="32400">
+        <flow id="houmu6_am" from="210342326#0"  to="-219765" number="17" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimae4-3 -->
+    <interval begin="25680" end="32400">
+        <flow id="ekimae4-3_am" from="268408808#6" via="175879333#5 169516525 32008537#1" to="179084399#1" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita8 -->
+    <interval begin="25680" end="32400">
+        <flow id="tenjinkita8_am" from="175081037#1" via="258878958#1 201674695#4" to="201674695#8" number="29" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-5 -->
+    <interval begin="25680" end="32400">
+        <flow id="hakataBT-5_am" from="178150954#2" via="169673064#4 201674706#0 304520257#1 -219773" to="210342325#3" number="10" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- houmu4 -->
+    <interval begin="25740" end="32400">
+        <flow id="houmu4_am" from="210342326#0"  to="302351410" number="20" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi9 -->
+    <interval begin="25800" end="32400">
+        <flow id="sumiyoshi9_am" from="175879333#5" via="169516525 32008537#1 179084399#0" to="179084399#1" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- houmu5 -->
+    <interval begin="25860" end="32400">
+        <flow id="houmu5_am" from="210342326#0" via="302351410 304520254#0" to="179129062#1" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yakuin2 -->
+    <interval begin="25860" end="32400">
+        <flow id="yakuin2_am" from="-175083056#1" via="169516525 32008537#1 179084399#0" to="454480289#0" number="5" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi4 -->
+    <interval begin="25860" end="32400">
+        <flow id="sumiyoshi4_am" from="205014971#1"  to="41118349#4" number="10" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita2 -->
+    <interval begin="25860" end="32400">
+        <flow id="tenjinkita2_am" from="175081037#1" via="258878956#0 207916357#2" to="362162012#0" number="10" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- katakasu1 -->
+    <interval begin="25860" end="32400">
+        <flow id="katakasu1_am" from="-47004602" via="201674695#4" to="201674695#8" number="5" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- sekijyou1 -->
+    <interval begin="25920" end="32400">
+        <flow id="sekijyou1_am" from="-40745158#1" via="304520254#0 201674695#4" to="268408808#3" number="7" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike4 -->
+    <interval begin="25920" end="32400">
+        <flow id="hasuike4_am" from="-47004448" via="-46699042#8 -374632640#12" to="-374632640#3" number="28" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike6 -->
+    <interval begin="25920" end="32400">
+        <flow id="hasuike6_am" from="-47004448" via="201674706#0 304520257#1 -219773" to="210342328#0" number="13" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-7 -->
+    <interval begin="25920" end="32400">
+        <flow id="hakataBT-7_am" from="178150954#2" via="-209367163" to="208989038#3" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- sekijyou2 -->
+    <interval begin="25980" end="32400">
+        <flow id="sekijyou2_am" from="-40745158#1" via="-46699042#8 -374632640#12" to="-374632640#3" number="3" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kuramotoD1 -->
+    <interval begin="25980" end="32400">
+        <flow id="kuramotoD1_am" from="304520254#1" via="39528682#0" to="39528682#4" number="7" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kego2 -->
+    <interval begin="25980" end="32400">
+        <flow id="kego2_am" from="503962649#2" via="32008537#1 179084399#0" to="179084399#1" number="15" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeC-3 -->
+    <interval begin="25980" end="32400">
+        <flow id="ekimaeC-3_am" from="186154225#1" via="175879333#5 206789952#1" to="206789952#3" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- takasago4 -->
+    <interval begin="26100" end="32400">
+        <flow id="takasago4_am" from="40745176#29" via="169516525 258878959#0 39528682#0" to="39528682#4" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi8 -->
+    <interval begin="26100" end="32400">
+        <flow id="sumiyoshi8_am" from="175879333#5" via="169516525 179084399#0 -179084434#6" to="-179084434#2" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike10 -->
+    <interval begin="26100" end="32400">
+        <flow id="hasuike10_am" from="-47004448" via="-46699042#8 258878956#0 207916357#2" to="206789952#3" number="8" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- sumiyoshi7 -->
+    <interval begin="26160" end="32400">
+        <flow id="sumiyoshi7_am" from="175879333#5" via="206789952#1" to="206789952#1" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- tenjinkita9 -->
+    <interval begin="26340" end="32400">
+        <flow id="tenjinkita9_am" from="175081037#1" via="258878958#1 -221621 210487462" to="186154225#4" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- takasago2 -->
+    <interval begin="26400" end="32400">
+        <flow id="takasago2_am" from="40745176#29" via="206789981" to="205014971#1" number="5" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeF-1 -->
+    <interval begin="26400" end="32400">
+        <flow id="ekimaeF-1_am" from="194289094#1" via="--221621 -32027132 32008537#1 179084399#0 207902938#0 207902940#1 -44889591#1 -301983669" to="168100627" number="6" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-1 -->
+    <interval begin="26400" end="32400">
+        <flow id="hakataBT-1_am" from="178150954#2" via="175150505#1 32008537#1 179084399#0" to="179084432#0" number="6" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- ishidou2 -->
+    <interval begin="26460" end="32400">
+        <flow id="ishidou2_am" from="175683579#6" via="304520257#1" to="341760062#1" number="7" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- hakataBT-3 -->
+    <interval begin="26520" end="32400">
+        <flow id="hakataBT-3_am" from="178150954#2" via="169673064#5 304520255#1" to="43105234" number="17" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- hasuike1 -->
+    <interval begin="26580" end="32400">
+        <flow id="hasuike1_am" from="-47004448" via="201674695#0 201674695#4" to="179129062#1" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- kego4 -->
+    <interval begin="26640" end="32400">
+        <flow id="kego4_am" from="503962649#2" via="32008537#1 258878959#0 39528682#0" to="39528682#4" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- hakataBT-2 -->
+    <interval begin="26700" end="32400">
+        <flow id="hakataBT-2_am" from="178150954#2" via="169673064#5 39528682#0" to="39528682#4" number="6" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- takasago3 -->
+    <interval begin="26880" end="32400">
+        <flow id="takasago3_am" from="40745176#29" via="169516525 32008537#1 179084399#0" to="179084399#1" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- tenjinkita3 -->
+    <interval begin="27000" end="32400">
+        <flow id="tenjinkita3_am" from="175081037#1" via="258878956#0 207916357#2" to="217421751#8" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- kego3 -->
+    <interval begin="27060" end="32400">
+        <flow id="kego3_am" from="503962649#2" via="-258878958#1 201674695#4" to="179129062#1" number="8" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- daimyou3 -->
+    <interval begin="27240" end="32400">
+        <flow id="daimyou3_am" from="-374632640#3" via="258878959#0 201674695#0 201674695#4" to="32027234" number="2" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- houmu1 -->
+    <interval begin="27360" end="32400">
+        <flow id="houmu1_am" from="210342326#0"  to="302351410" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- sekijyou5 -->
+    <interval begin="28020" end="32400">
+        <flow id="sekijyou5_am" from="-40745158#1" via="304520254#0 201674695#0 201674695#4" to="32027234" number="9" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeB-2 -->
+    <interval begin="28500" end="32400">
+        <flow id="ekimaeB-2_am" from="32027234" via="175879333#5 362162012#0" to="175083056#1" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- 08:00 (28800) -->
+    <!-- ekimaeA-2 -->
+    <interval begin="28800" end="32400">
+        <flow id="ekimaeA-2_am" from="32027234" via="175879333#5 169516525 32008537#1" to="454480289#0" number="2" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- ekimaeA-6 -->
+    <interval begin="28860" end="32400">
+        <flow id="ekimaeA-6_am" from="32027234"  to="32027234" number="2" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- tenjinkita7 -->
+    <interval begin="29160" end="32400">
+        <flow id="tenjinkita7_am" from="175081037#1" via="258878956#0 206789981" to="205014971#1" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- houmu2 -->
+    <interval begin="30120" end="32400">
+        <flow id="houmu2_am" from="210342326#0"  to="302351410" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike3 -->
+    <interval begin="30300" end="32400">
+        <flow id="hasuike3_am" from="-47004448" via="-32027132 -520145812#1" to="-503962649#2" number="2" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- sekijyou3 -->
+    <interval begin="31020" end="32400">
+        <flow id="sekijyou3_am" from="-40745158#1" via="304520257#1 -219773" to="-374632640#10" number="2" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- tenjinkita10 -->
+    <interval begin="32040" end="32400">
+        <flow id="tenjinkita10_am" from="175081037#1" via="258878956#0 206789981 41118349#1" to="210507356#0" number="1" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- 13:00 (46800) -->
+    <!-- houmu4 -->
+    <interval begin="46800" end="54000">
+        <flow id="houmu4_pm" from="210342326#0"  to="302351410" number="22" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- daimyou1 -->
+    <interval begin="46800" end="54000">
+        <flow id="daimyou1_pm" from="374632640#3" via="258878959#0 39528682#0" to="39528682#4" number="38" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yakuin2 -->
+    <interval begin="46800" end="54000">
+        <flow id="yakuin2_pm" from="-175083056#1" via="169516525 32008537#1 179084399#0" to="454480289#0" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- takasago1 -->
+    <interval begin="46800" end="54000">
+        <flow id="takasago1_pm" from="40745176#29" via="169516525 32008537#1 179084399#0" to="179084432#0" number="24" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimae4-7 -->
+    <interval begin="46800" end="54000">
+        <flow id="ekimae4-7_pm" from="41118349#4"  to="210507356#0" number="21" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita6 -->
+    <interval begin="46800" end="54000">
+        <flow id="tenjinkita6_pm" from="175081037#1" via="258878956#0 207916357#2" to="206789952#3" number="12" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita7 -->
+    <interval begin="46800" end="54000">
+        <flow id="tenjinkita7_pm" from="175081037#1" via="258878956#0 206789981" to="205014971#1" number="5" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kego1 -->
+    <interval begin="46800" end="54000">
+        <flow id="kego1_pm" from="-503962649#2"  to="-503962649#1" number="50" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeA-4 -->
+    <interval begin="46800" end="54000">
+        <flow id="ekimaeA-4_pm" from="32027234" via="-45778984#11 -161950324#1 -32027132" to="-503962649#2" number="9" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeB-1 -->
+    <interval begin="46800" end="54000">
+        <flow id="ekimaeB-1_pm" from="32027234" via="175879333#5 362162012#0" to="175083056#1" number="48" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeC-1 -->
+    <interval begin="46800" end="54000">
+        <flow id="ekimaeC-1_pm" from="186154225#1" via="40745201#1 194289107#0" to="194289098#1" number="18" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-5 -->
+    <interval begin="46800" end="54000">
+        <flow id="hakataBT-5_pm" from="178150954#2" via="169673064#4 201674706#0 304520257#1 -219773" to="210342325#3" number="9" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- sumiyoshi2 -->
+    <interval begin="46860" end="54000">
+        <flow id="sumiyoshi2_pm" from="175879333#5"  to="362162012#0" number="58" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimae4-8 -->
+    <interval begin="46860" end="54000">
+        <flow id="ekimae4-8_pm" from="41118349#4"  to="-221534#0" number="59" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita8 -->
+    <interval begin="46860" end="54000">
+        <flow id="tenjinkita8_pm" from="175081037#1" via="258878958#1 201674695#4" to="201674695#8" number="18" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sekijyou3 -->
+    <interval begin="46860" end="54000">
+        <flow id="sekijyou3_pm" from="-40745158#1" via="304520257#1 -219773" to="-374632640#10" number="5" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-1 -->
+    <interval begin="46860" end="54000">
+        <flow id="hakataBT-1_pm" from="178150954#2" via="175150505#1 32008537#1 179084399#0" to="179084432#0" number="17" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi10 -->
+    <interval begin="46860" end="54000">
+        <flow id="sumiyoshi10_pm" from="205014971#1"  to="41118349#9" number="52" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- sumiyoshi6 -->
+    <interval begin="46920" end="54000">
+        <flow id="sumiyoshi6_pm" from="175879333#5" via="169516525 32008537#1 179084399#0" to="179084432#0" number="19" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita1 -->
+    <interval begin="46920" end="54000">
+        <flow id="tenjinkita1_pm" from="175081037#1" via="258878956#0 207916357#2" to="206789952#1" number="21" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kuramotoS2 -->
+    <interval begin="46920" end="54000">
+        <flow id="kuramotoS2_pm" from="304520257#1"  to="341760062#1" number="25" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yuubinkyoku4 -->
+    <interval begin="46920" end="54000">
+        <flow id="yuubinkyoku4_pm" from="302351410" via="304520255#1" to="-175683579#6" number="17" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- houmu1 -->
+    <interval begin="46980" end="54000">
+        <flow id="houmu1_pm" from="210342326#0"  to="302351410" number="12" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sekijyou1 -->
+    <interval begin="46980" end="54000">
+        <flow id="sekijyou1_pm" from="-40745158#1" via="304520254#0 201674695#4" to="268408808#3" number="7" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yuubinkyoku1 -->
+    <interval begin="46980" end="54000">
+        <flow id="yuubinkyoku1_pm" from="341760062#1" via="-219773" to="210342325#3" number="44" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- sumiyoshi1 -->
+    <interval begin="47040" end="54000">
+        <flow id="sumiyoshi1_pm" from="205014971#1" via="169673064#0 169673064#5 201674727#1" to="169673058#0" number="5" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi5 -->
+    <interval begin="47040" end="54000">
+        <flow id="sumiyoshi5_pm" from="205014971#1"  to="41118349#4" number="16" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita4 -->
+    <interval begin="47040" end="54000">
+        <flow id="tenjinkita4_pm" from="175081037#1" via="179084400#1 258878956#0 -520145812#1" to="-503962649#1" number="13" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yuubinkyoku2 -->
+    <interval begin="47040" end="54000">
+        <flow id="yuubinkyoku2_pm" from="302351410" via="304520255#1" to="43105234" number="51" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- daimyou2 -->
+    <interval begin="47100" end="54000">
+        <flow id="daimyou2_pm" from="374632640#3" via="258878959#0 201674695#0" to="201674695#8" number="26" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- ekimae4-1 -->
+    <interval begin="47160" end="54000">
+        <flow id="ekimae4-1_pm" from="41118349#4" via="41118349#11 -221534#0 169673064#0 169673064#5 201674727#1" to="169673056#2" number="13" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ishidou2 -->
+    <interval begin="47160" end="54000">
+        <flow id="ishidou2_pm" from="175683579#6" via="304520257#1" to="341760062#1" number="7" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-4 -->
+    <interval begin="47160" end="54000">
+        <flow id="hakataBT-4_pm" from="178150954#2" via="169673064#5 -46699042#8 -374632640#12" to="-374632640#3" number="37" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+
+    <!-- hasuike4 -->
+    <interval begin="47220" end="54000">
+        <flow id="hasuike4_pm" from="-47004448" via="-46699042#8 -374632640#12" to="-374632640#3" number="23" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kego5 -->
+    <interval begin="47220" end="54000">
+        <flow id="kego5_pm" from="503962649#2" via="-258878958#1 201674695#4" to="-222264#1" number="9" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeC-3 -->
+    <interval begin="47220" end="54000">
+        <flow id="ekimaeC-3_pm" from="186154225#1" via="175879333#5 206789952#1" to="206789952#3" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+
+    <!-- houmu5 -->
+    <interval begin="47280" end="54000">
+        <flow id="houmu5_pm" from="210342326#0" via="302351410 304520254#0" to="179129062#1" number="8" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita2 -->
+    <interval begin="47280" end="54000">
+        <flow id="tenjinkita2_pm" from="175081037#1" via="258878956#0 207916357#2" to="362162012#0" number="8" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- tenjinkita9 -->
+    <interval begin="47280" end="54000">
+        <flow id="tenjinkita9_pm" from="175081037#1" via="258878958#1 -221621 210487462" to="186154225#4" number="1" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kuramotoS1 -->
+    <interval begin="47280" end="54000">
+        <flow id="kuramotoS1_pm" from="304520257#1" via="304520257#1 -219773" to="210342328#0" number="22" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeA-1 -->
+    <interval begin="47280" end="54000">
+        <flow id="ekimaeA-1_pm" from="32027234" via="175879333#5 169516525 32008537#1" to="179084399#1" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-6 -->
+    <interval begin="47280" end="54000">
+        <flow id="hakataBT-6_pm" from="178150954#2" via="175150505#1 -520145812#1" to="-503962649#2" number="35" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+
+    <!-- hasuike7 -->
+    <interval begin="47340" end="54000">
+        <flow id="hasuike7_pm" from="-47004448" via="201674706#0 304520257#1" to="341760062#1" number="5" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- ekimae4-2 -->
+    <interval begin="47400" end="54000">
+        <flow id="ekimae4-2_pm" from="41118349#4"  to="179129062#1" number="8" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeA-5 -->
+    <interval begin="47400" end="54000">
+        <flow id="ekimaeA-5_pm" from="32027234" via="-45778984#11 -161950324#1 -32027132 217018834#2 33111549#0 -68756869#2" to="258878956#0" number="11" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-2 -->
+    <interval begin="47400" end="54000">
+        <flow id="hakataBT-2_pm" from="178150954#2" via="169673064#5 39528682#0" to="39528682#4" number="8" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-3 -->
+    <interval begin="47400" end="54000">
+        <flow id="hakataBT-3_pm" from="178150954#2" via="169673064#5 304520255#1" to="43105234" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+
+    <!-- takasago4 -->
+    <interval begin="47460" end="54000">
+        <flow id="takasago4_pm" from="40745176#29" via="169516525 258878959#0 39528682#0" to="39528682#4" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi7 -->
+    <interval begin="47460" end="54000">
+        <flow id="sumiyoshi7_pm" from="175879333#5" via="206789952#1" to="206789952#1" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- sekijyou4 -->
+    <interval begin="47520" end="54000">
+        <flow id="sekijyou4_pm" from="-40745158#1" via="44889592#1 179084434#5" to="175081037#1" number="8" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike1 -->
+    <interval begin="47520" end="54000">
+        <flow id="hasuike1_pm" from="-47004448" via="201674695#0 201674695#4" to="179129062#1" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ishidou1 -->
+    <interval begin="47520" end="54000">
+        <flow id="ishidou1_pm" from="175683579#6" via="304520257#1 -219773" to="210342328#0" number="7" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hakataBT-7 -->
+    <interval begin="47520" end="54000">
+        <flow id="hakataBT-7_pm" from="178150954#2" via="-209367163" to="208989038#3" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- yuubinkyoku3 -->
+    <interval begin="47520" end="54000">
+        <flow id="yuubinkyoku3_pm" from="302351410" via="186154255#0" to="40745158#1" number="6" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- sumiyoshi4 -->
+    <interval begin="47580" end="54000">
+        <flow id="sumiyoshi4_pm" from="205014971#1"  to="41118349#4" number="5" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike9 -->
+    <interval begin="47580" end="54000">
+        <flow id="hasuike9_pm" from="-47004448" via="-46699042#8 258878956#0 207916357#2" to="206789952#3" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- takasago2 -->
+    <interval begin="47640" end="54000">
+        <flow id="takasago2_pm" from="40745176#29" via="206789981" to="205014971#1" number="3" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike8 -->
+    <interval begin="47640" end="54000">
+        <flow id="hasuike8_pm" from="-47004448" via="201674695#0 175150505#1" to="-258878959#0" number="3" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeA-2 -->
+    <interval begin="47640" end="54000">
+        <flow id="ekimaeA-2_pm" from="32027234" via="175879333#5 169516525 32008537#1" to="454480289#0" number="8" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+
+
+    <!-- kuramotoD1 -->
+    <interval begin="47700" end="54000">
+        <flow id="kuramotoD1_pm" from="304520254#1" via="39528682#0" to="39528682#4" number="5" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- hasuike6 -->
+    <interval begin="47700" end="54000">
+        <flow id="hasuike6_pm" from="-47004448" via="201674706#0 304520257#1 -219773" to="210342328#0" number="9" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- ekimaeA-3 -->
+    <interval begin="47760" end="54000">
+        <flow id="ekimaeA-3_pm" from="32027234"  to="268408808#6" number="15" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- houmu6 -->
+    <interval begin="47880" end="54000">
+        <flow id="houmu6_pm" from="210342326#0"  to="-219765" number="9" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- kego2 -->
+    <interval begin="47880" end="54000">
+        <flow id="kego2_pm" from="503962649#2" via="32008537#1 179084399#0" to="179084399#1" number="11" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeF-2 -->
+    <interval begin="47880" end="54000">
+        <flow id="ekimaeF-2_pm" from="194289094#1" via="--221621 -32027132 32008537#1" to="179084399#1" number="2" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- takasago3 -->
+    <interval begin="48240" end="54000">
+        <flow id="takasago3_pm" from="40745176#29" via="169516525 32008537#1 179084399#0" to="179084399#1" number="3" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- katakasu1 -->
+    <interval begin="48240" end="54000">
+        <flow id="katakasu1_pm" from="-47004602" via="201674695#4" to="201674695#8" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- ekimaeC-2 -->
+    <interval begin="48240" end="54000">
+        <flow id="ekimaeC-2_pm" from="186154225#1" via="40745201#1 -40273647#9" to="-40273647#1" number="5" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+
+
+    <!-- sumiyoshi8 -->
+    <interval begin="48300" end="54000">
+        <flow id="sumiyoshi8_pm" from="175879333#5" via="169516525 179084399#0 -179084434#6" to="-179084434#2" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- hasuike5 -->
+    <interval begin="48480" end="54000">
+        <flow id="hasuike5_pm" from="-47004448" via="201674695#0 201674695#4" to="201674695#8" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- tenjinkita10 -->
+    <interval begin="48540" end="54000">
+        <flow id="tenjinkita10_pm" from="175081037#1" via="258878956#0 206789981 41118349#1" to="210507356#0" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- sekijyou5 -->
+    <interval begin="48600" end="54000">
+        <flow id="sekijyou5_pm" from="-40745158#1" via="304520254#0 201674695#0 201674695#4" to="32027234" number="4" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- kego3 -->
+    <interval begin="49080" end="54000">
+        <flow id="kego3_pm" from="503962649#2" via="-258878958#1 201674695#4" to="179129062#1" number="2" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- houmu3 -->
+    <interval begin="49140" end="54000">
+        <flow id="houmu3_pm" from="210342326#0"  to="39528682#4" number="4" type="nishitetsu_bus" />
+    </interval>
+
+    <!-- sumiyoshi3 -->
+    <interval begin="49140" end="54000">
+        <flow id="sumiyoshi3_pm" from="205014971#1" via="169673064#0 169673064#5 39528682#0" to="39528682#4" number="2" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- ekimae4-4 -->
+    <interval begin="49260" end="54000">
+        <flow id="ekimae4-4_pm" from="41118349#4" via="169673064#0 169673064#5 39528682#0" to="39528682#0" number="2" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- hasuike2 -->
+    <interval begin="49380" end="54000">
+        <flow id="hasuike2_pm" from="-47004448" via="201674695#0 201674695#4 32027234" to="268408808#3" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+
+
+    <!-- tenjinkita3 -->
+    <interval begin="49500" end="54000">
+        <flow id="tenjinkita3_pm" from="175081037#1" via="258878956#0 207916357#2" to="217421751#8" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+
+    <!-- ekimaeA-6 -->
+    <interval begin="49800" end="54000">
+        <flow id="ekimaeA-6_pm" from="32027234"  to="32027234" number="3" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- 14:00 (50400) -->
+
+    <!-- hasuike10 -->
+    <interval begin="51300" end="54000">
+        <flow id="hasuike10_pm" from="-47004448" via="-46699042#8 258878956#0 207916357#2" to="206789952#3" number="1" type="nishitetsu_bus" />
+    </interval>
+
+
+    <!-- ekimaeF-1 -->
+    <interval begin="52260" end="54000">
+        <flow id="ekimaeF-1_pm" from="194289094#1" via="--221621 -32027132 32008537#1 179084399#0 207902938#0 207902940#1 -44889591#1 -301983669" to="168100627" number="1" type="nishitetsu_bus" />
+    </interval>
+
+</flows>

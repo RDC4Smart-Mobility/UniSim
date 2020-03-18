@@ -1,0 +1,149 @@
+<!-- Shinkawa Bashi, Watanabe Dori Kita, Watanabe Dori 1chome -->
+
+<flows>
+    <!-- 07:00- -->
+    <interval begin="25200" end="28799">
+        <!-- <flow id="ShinkawaBashi_A_0700" from="207916357#4" number="984" /> -->
+        <flow id="ShinkawaBashi_B_0700" from="362162013#5" number="1135" />
+        <flow id="ShinkawaBashi_C_0700" from="50887139#0" number="327" />
+
+        <flow id="WatanabeDoriKita_B_0700" from="-217018808#7" number="126" />
+        <flow id="WatanabeDoriKita_D_0700" from="217018808#4" number="248" />
+
+
+    </interval>
+
+    <!-- 08:00 -->
+    <interval begin="28800" end="32399">
+        <!-- <flow id="ShinkawaBashi_A_0800" from="207916357#4" number="1273" /> -->
+        <flow id="ShinkawaBashi_B_0800" from="362162013#5" number="1236" />
+        <flow id="ShinkawaBashi_C_0800" from="50887139#0" number="365" />
+
+        <flow id="WatanabeDoriKita_B_0800" from="-217018808#7" number="188" />
+        <flow id="WatanabeDoriKita_D_0800" from="217018808#4" number="419" />
+
+
+    </interval>
+
+    <!-- 09:00 -->
+    <interval begin="32400" end="35999">
+        <!-- <flow id="ShinkawaBashi_A_0900" from="207916357#4" number="1343" /> -->
+        <flow id="ShinkawaBashi_B_0900" from="362162013#5" number="1355" />
+        <flow id="ShinkawaBashi_C_0900" from="50887139#0" number="345" />
+
+        <flow id="WatanabeDoriKita_B_0900" from="-217018808#7" number="236" />
+        <flow id="WatanabeDoriKita_D_0900" from="217018808#4" number="391" />
+
+
+    </interval>
+
+    <!-- 10:00 -->
+    <interval begin="36000" end="39599">
+        <!-- <flow id="ShinkawaBashi_A_1000" from="207916357#4" number="1328" /> -->
+        <flow id="ShinkawaBashi_B_1000" from="362162013#5" number="1239" />
+        <flow id="ShinkawaBashi_C_1000" from="50887139#0" number="346" />
+
+        <flow id="WatanabeDoriKita_B_1000" from="-217018808#7" number="370" />
+        <flow id="WatanabeDoriKita_D_1000" from="217018808#4" number="343" />
+
+
+    </interval>
+
+    <!-- 11:00 -->
+    <interval begin="39600" end="43199">
+        <!-- <flow id="ShinkawaBashi_A_1100" from="207916357#4" number="1571" /> -->
+        <flow id="ShinkawaBashi_B_1100" from="362162013#5" number="1189" />
+        <flow id="ShinkawaBashi_C_1100" from="50887139#0" number="341" />
+
+        <flow id="WatanabeDoriKita_B_1100" from="-217018808#7" number="324" />
+        <flow id="WatanabeDoriKita_D_1100" from="217018808#4" number="357" />
+
+
+    </interval>
+
+    <!-- 12:00 -->
+    <interval begin="43200" end="46799">
+        <!-- <flow id="ShinkawaBashi_A_1200" from="207916357#4" number="1447" /> -->
+        <flow id="ShinkawaBashi_B_1200" from="362162013#5" number="1095" />
+        <flow id="ShinkawaBashi_C_1200" from="50887139#0" number="331" />
+
+        <flow id="WatanabeDoriKita_B_1200" from="-217018808#7" number="331" />
+        <flow id="WatanabeDoriKita_D_1200" from="217018808#4" number="277" />
+
+
+    </interval>
+
+    <!-- 13:00 -->
+    <interval begin="46800" end="50399">
+        <!-- <flow id="ShinkawaBashi_A_1300" from="207916357#4" number="1451" /> -->
+        <flow id="ShinkawaBashi_B_1300" from="362162013#5" number="1220" />
+        <flow id="ShinkawaBashi_C_1300" from="50887139#0" number="315" />
+
+        <flow id="WatanabeDoriKita_B_1300" from="-217018808#7" number="366" />
+        <flow id="WatanabeDoriKita_D_1300" from="217018808#4" number="317" />
+
+
+    </interval>
+
+    <!-- 14:00 -->
+    <interval begin="50400" end="53999">
+        <!-- <flow id="ShinkawaBashi_A_1400" from="207916357#4" number="1593" /> -->
+        <flow id="ShinkawaBashi_B_1400" from="362162013#5" number="1080" />
+        <flow id="ShinkawaBashi_C_1400" from="50887139#0" number="328" />
+
+        <flow id="WatanabeDoriKita_B_1400" from="-217018808#7" number="386" />
+        <flow id="WatanabeDoriKita_D_1400" from="217018808#4" number="312" />
+
+
+    </interval>
+
+    <!-- 15:00 -->
+    <interval begin="54000" end="57599">
+        <!-- <flow id="ShinkawaBashi_A_1500" from="207916357#4" number="1639" /> -->
+        <flow id="ShinkawaBashi_B_1500" from="362162013#5" number="1220" />
+        <flow id="ShinkawaBashi_C_1500" from="50887139#0" number="318" />
+
+        <flow id="WatanabeDoriKita_B_1500" from="-217018808#7" number="350" />
+        <flow id="WatanabeDoriKita_D_1500" from="217018808#4" number="322" />
+
+
+    </interval>
+
+    <!-- 16:00 -->
+    <interval begin="57600" end="61199">
+        <!-- <flow id="ShinkawaBashi_A_1600" from="207916357#4" number="1660" /> -->
+        <flow id="ShinkawaBashi_B_1600" from="362162013#5" number="1076" />
+        <flow id="ShinkawaBashi_C_1600" from="50887139#0" number="325" />
+
+        <flow id="WatanabeDoriKita_B_1600" from="-217018808#7" number="411" />
+        <flow id="WatanabeDoriKita_D_1600" from="217018808#4" number="350" />
+
+
+    </interval>
+
+    <!-- 17:00 -->
+    <interval begin="61200" end="64799">
+        <!-- <flow id="ShinkawaBashi_A_1700" from="207916357#4" number="1687" /> -->
+        <flow id="ShinkawaBashi_B_1700" from="362162013#5" number="1102" />
+        <flow id="ShinkawaBashi_C_1700" from="50887139#0" number="329" />
+
+        <flow id="WatanabeDoriKita_B_1700" from="-217018808#7" number="423" />
+        <flow id="WatanabeDoriKita_D_1700" from="217018808#4" number="287" />
+
+
+    </interval>
+
+    <!-- 18:00 -->
+    <interval begin="64800" end="68399">
+        <!-- <flow id="ShinkawaBashi_A_1800" from="207916357#4" number="1703" /> -->
+        <flow id="ShinkawaBashi_B_1800" from="362162013#5" number="989" />
+        <flow id="ShinkawaBashi_C_1800" from="50887139#0" number="330" />
+
+        <flow id="WatanabeDoriKita_B_1800" from="-217018808#7" number="385"/>
+        <flow id="WatanabeDoriKita_D_1800" from="217018808#4" number="243" />
+
+
+    </interval>
+
+</flows>
+

@@ -1,0 +1,256 @@
+<!--Nanotsu Area: Nanotsu-3chome, Tenjin Kita Ramp, Suzaki 1go (Nagahama 3chome), Nanotsu 1chome, Nanotsu Guchi (Nagahama) -->
+
+<flows>
+    <!-- 07:00- -->
+    <interval begin="25200" end="28799">
+        <flow id="Nanotsu3chome_A_0700" from="258873376#3" number="227" />
+        <flow id="Nanotsu3chome_B_0700" from="169489042#4" number="263" />
+        <flow id="Nanotsu3chome_D_0700" from="180105248" number="160" />
+
+        <!-- <flow id="TenjinKitaRampToHW_0700" from="95481614" number="536" /> -->
+        <flow id="TenjinKitaRampFromHW_0700" from="96377990" number="818" />
+
+        <flow id="Suzaki1go_A_0700" from="179084432#1" number="666" />
+        <flow id="Suzaki1go_B_0700" from="58247215#4" number="712" />
+        <flow id="Suzaki1go_D_0700" from="-169489042#0" number="207" />
+
+        <flow id="Nanotsu1chome_Kudari_0700" from="-175860903#0" number="25" />
+
+        <!-- <flow id="NanotsuGuchi_A_0700" from="61460560#2" number="662" /> -->
+        <flow id="NanotsuGuchi_B_0700" from="46679467#4" number="1272" />
+        <!-- <flow id="NanotsuGuchi_C_0700" from="454480289#1" number="809" /> -->
+        <flow id="NanotsuGuchi_D_0700" from="-43105222#0" number="1184" />
+    </interval>
+
+    <!-- 08:00 -->
+    <interval begin="28800" end="32399">
+        <flow id="Nanotsu3chome_A_0800" from="258873376#3" number="255" />
+        <flow id="Nanotsu3chome_B_0800" from="169489042#4" number="188" />
+        <flow id="Nanotsu3chome_D_0800" from="180105248" number="183" />
+
+        <flow id="TenjinKitaRampToHW_0800" from="95481614" number="766" />
+        <flow id="TenjinKitaRampFromHW_0800" from="96377990" number="1230" />
+
+        <flow id="Suzaki1go_A_0800" from="179084432#1" number="740" />
+        <flow id="Suzaki1go_B_0800" from="58247215#4" number="1037" />
+        <flow id="Suzaki1go_D_0800" from="-169489042#0" number="300" />
+
+        <flow id="Nanotsu1chome_Kudari_0800" from="-175860903#0" number="42" />
+
+        <!-- <flow id="NanotsuGuchi_A_0800" from="61460560#2" number="1053" /> -->
+        <flow id="NanotsuGuchi_B_0800" from="46679467#4" number="1372" />
+        <!-- <flow id="NanotsuGuchi_C_0800" from="454480289#1" number="814" /> -->
+        <flow id="NanotsuGuchi_D_0800" from="-43105222#0" number="1138" />
+    </interval>
+
+    <!-- 09:00 -->
+    <interval begin="32400" end="35999">
+        <flow id="Nanotsu3chome_A_0900" from="258873376#3" number="250" />
+        <flow id="Nanotsu3chome_B_0900" from="169489042#4" number="189" />
+        <flow id="Nanotsu3chome_D_0900" from="180105248" number="218" />
+
+        <flow id="TenjinKitaRampToHW_0900" from="95481614" number="566" />
+        <flow id="TenjinKitaRampFromHW_0900" from="96377990" number="1018" />
+
+        <flow id="Suzaki1go_A_0900" from="179084432#1" number="744" />
+        <flow id="Suzaki1go_B_0900" from="58247215#4" number="645" />
+        <flow id="Suzaki1go_D_0900" from="-169489042#0" number="239" />
+
+        <flow id="Nanotsu1chome_Kudari_0900" from="-175860903#0" number="31" />
+
+        <!-- <flow id="NanotsuGuchi_A_0900" from="61460560#2" number="823" /> -->
+        <flow id="NanotsuGuchi_B_0900" from="46679467#4" number="1331" />
+        <!-- <flow id="NanotsuGuchi_C_0900" from="454480289#1" number="837" /> -->
+        <flow id="NanotsuGuchi_D_0900" from="-43105222#0" number="1052" />
+    </interval>
+
+    <!-- 10:00 -->
+    <interval begin="36000" end="39599">
+        <flow id="Nanotsu3chome_A_1000" from="258873376#3" number="261" />
+        <flow id="Nanotsu3chome_B_1000" from="169489042#4" number="203" />
+        <flow id="Nanotsu3chome_D_1000" from="180105248" number="218" />
+
+        <flow id="TenjinKitaRampToHW_1000" from="95481614" number="693" />
+        <flow id="TenjinKitaRampFromHW_1000" from="96377990" number="802" />
+
+        <flow id="Suzaki1go_A_1000" from="179084432#1" number="825" />
+        <flow id="Suzaki1go_B_1000" from="58247215#4" number="670" />
+        <flow id="Suzaki1go_D_1000" from="-169489042#0" number="241" />
+
+        <flow id="Nanotsu1chome_Kudari_1000" from="-175860903#0" number="60" />
+
+        <!-- <flow id="NanotsuGuchi_A_1000" from="61460560#2" number="768" /> -->
+        <flow id="NanotsuGuchi_B_1000" from="46679467#4" number="1279" />
+        <!-- <flow id="NanotsuGuchi_C_1000" from="454480289#1" number="845" /> -->
+        <flow id="NanotsuGuchi_D_1000" from="-43105222#0" number="1038" />
+    </interval>
+
+    <!-- 11:00 -->
+    <interval begin="39600" end="43199">
+        <flow id="Nanotsu3chome_A_1100" from="258873376#3" number="251" />
+        <flow id="Nanotsu3chome_B_1100" from="169489042#4" number="201" />
+        <flow id="Nanotsu3chome_D_1100" from="180105248" number="184" />
+
+        <flow id="TenjinKitaRampToHW_1100" from="95481614" number="886" />
+        <flow id="TenjinKitaRampFromHW_1100" from="96377990" number="802" />
+
+        <flow id="Suzaki1go_A_1100" from="179084432#1" number="927" />
+        <flow id="Suzaki1go_B_1100" from="58247215#4" number="787" />
+        <flow id="Suzaki1go_D_1100" from="-169489042#0" number="272" />
+
+        <flow id="Nanotsu1chome_Kudari_1100" from="-175860903#0" number="67" />
+
+        <!-- <flow id="NanotsuGuchi_A_1100" from="61460560#2" number="800" /> -->
+        <flow id="NanotsuGuchi_B_1100" from="46679467#4" number="1272" />
+        <!-- <flow id="NanotsuGuchi_C_1100" from="454480289#1" number="964" /> -->
+        <flow id="NanotsuGuchi_D_1100" from="-43105222#0" number="984" />
+    </interval>
+
+    <!-- 12:00 -->
+    <interval begin="43200" end="46799">
+    	<flow id="Nanotsu3chome_A_1200" from="258873376#3" number="228" />
+    	<flow id="Nanotsu3chome_B_1200" from="169489042#4" number="181" />
+    	<flow id="Nanotsu3chome_D_1200" from="180105248" number="204" />
+
+        <flow id="TenjinKitaRampToHW_1200" from="95481614" number="778" />
+        <flow id="TenjinKitaRampFromHW_1200" from="96377990" number="695" />
+
+    	<flow id="Suzaki1go_A_1200" from="179084432#1" number="841" />
+    	<flow id="Suzaki1go_B_1200" from="58247215#4" number="658" />
+    	<flow id="Suzaki1go_D_1200" from="-169489042#0" number="263" />
+
+    	<flow id="Nanotsu1chome_Kudari_1200" from="-175860903#0" number="37" />
+
+    	<!-- <flow id="NanotsuGuchi_A_1200" from="61460560#2" number="732" /> -->
+        <flow id="NanotsuGuchi_B_1200" from="46679467#4" number="1079" />
+        <!-- <flow id="NanotsuGuchi_C_1200" from="454480289#1" number="858" /> -->
+        <flow id="NanotsuGuchi_D_1200" from="-43105222#0" number="1015" />
+    </interval>
+
+    <!-- 13:00 -->
+    <interval begin="46800" end="50399">
+        <flow id="Nanotsu3chome_A_1300" from="258873376#3" number="324" />
+        <flow id="Nanotsu3chome_B_1300" from="169489042#4" number="197" />
+        <flow id="Nanotsu3chome_D_1300" from="180105248" number="257" />
+
+        <flow id="TenjinKitaRampToHW_1300" from="95481614" number="852" />
+        <flow id="TenjinKitaRampFromHW_1300" from="96377990" number="739" />
+
+        <flow id="Suzaki1go_A_1300" from="179084432#1" number="877" />
+        <flow id="Suzaki1go_B_1300" from="58247215#4" number="659" />
+        <flow id="Suzaki1go_D_1300" from="-169489042#0" number="313" />
+
+        <flow id="Nanotsu1chome_Kudari_1300" from="-175860903#0" number="64" />
+
+        <!-- <flow id="NanotsuGuchi_A_1300" from="61460560#2" number="844" /> -->
+        <flow id="NanotsuGuchi_B_1300" from="46679467#4" number="1223" />
+        <!-- <flow id="NanotsuGuchi_C_1300" from="454480289#1" number="934" /> -->
+        <flow id="NanotsuGuchi_D_1300" from="-43105222#0" number="1124" />
+    </interval>
+
+    <!-- 14:00 -->
+    <interval begin="50400" end="53999">
+        <flow id="Nanotsu3chome_A_1400" from="258873376#3" number="295" />
+        <flow id="Nanotsu3chome_B_1400" from="169489042#4" number="195" />
+        <flow id="Nanotsu3chome_D_1400" from="180105248" number="255" />
+
+        <flow id="TenjinKitaRampToHW_1400" from="95481614" number="795" />
+        <flow id="TenjinKitaRampFromHW_1400" from="96377990" number="788" />
+
+        <flow id="Suzaki1go_A_1400" from="179084432#1" number="840" />
+        <flow id="Suzaki1go_B_1400" from="58247215#4" number="693" />
+        <flow id="Suzaki1go_D_1400" from="-169489042#0" number="322" />
+
+        <flow id="Nanotsu1chome_Kudari_1400" from="-175860903#0" number="71" />
+
+        <!-- <flow id="NanotsuGuchi_A_1400" from="61460560#2" number="758" /> -->
+        <flow id="NanotsuGuchi_B_1400" from="46679467#4" number="1545" />
+        <!-- <flow id="NanotsuGuchi_C_1400" from="454480289#1" number="816" /> -->
+        <flow id="NanotsuGuchi_D_1400" from="-43105222#0" number="1107" />
+    </interval>
+
+    <!-- 15:00 -->
+    <interval begin="54000" end="57599">
+        <flow id="Nanotsu3chome_A_1500" from="258873376#3" number="238" />
+        <flow id="Nanotsu3chome_B_1500" from="169489042#4" number="190" />
+        <flow id="Nanotsu3chome_D_1500" from="180105248" number="228" />
+
+        <flow id="TenjinKitaRampToHW_1500" from="95481614" number="662" />
+        <flow id="TenjinKitaRampFromHW_1500" from="96377990" number="960" />
+
+        <flow id="Suzaki1go_A_1500" from="179084432#1" number="908" />
+        <flow id="Suzaki1go_B_1500" from="58247215#4" number="639" />
+        <flow id="Suzaki1go_D_1500" from="-169489042#0" number="302" />
+
+        <flow id="Nanotsu1chome_Kudari_1500" from="-175860903#0" number="66" />
+
+        <!-- <flow id="NanotsuGuchi_A_1500" from="61460560#2" number="892" /> -->
+        <flow id="NanotsuGuchi_B_1500" from="46679467#4" number="1319" />
+        <!-- <flow id="NanotsuGuchi_C_1500" from="454480289#1" number="925" /> -->
+        <flow id="NanotsuGuchi_D_1500" from="-43105222#0" number="1046" />
+    </interval>
+
+    <!-- 16:00 -->
+    <interval begin="57600" end="61199">
+        <flow id="Nanotsu3chome_A_1600" from="258873376#3" number="237" />
+        <flow id="Nanotsu3chome_B_1600" from="169489042#4" number="178" />
+        <flow id="Nanotsu3chome_D_1600" from="180105248" number="193" />
+
+        <flow id="TenjinKitaRampToHW_1600" from="95481614" number="633" />
+        <flow id="TenjinKitaRampFromHW_1600" from="96377990" number="918" />
+
+        <flow id="Suzaki1go_A_1600" from="179084432#1" number="751" />
+        <flow id="Suzaki1go_B_1600" from="58247215#4" number="613" />
+        <flow id="Suzaki1go_D_1600" from="-169489042#0" number="326" />
+
+        <flow id="Nanotsu1chome_Kudari_1600" from="-175860903#0" number="46" />
+
+        <!-- <flow id="NanotsuGuchi_A_1600" from="61460560#2" number="802" /> -->
+        <flow id="NanotsuGuchi_B_1600" from="46679467#4" number="1203" />
+        <!-- <flow id="NanotsuGuchi_C_1600" from="454480289#1" number="767" /> -->
+        <flow id="NanotsuGuchi_D_1600" from="-43105222#0" number="1084" />
+    </interval>
+
+    <!-- 17:00 -->
+    <interval begin="61200" end="64799">
+        <flow id="Nanotsu3chome_A_1700" from="258873376#3" number="321" />
+        <flow id="Nanotsu3chome_B_1700" from="169489042#4" number="138" />
+        <flow id="Nanotsu3chome_D_1700" from="180105248" number="222" />
+
+        <flow id="TenjinKitaRampToHW_1700" from="95481614" number="843" />
+        <flow id="TenjinKitaRampFromHW_1700" from="96377990" number="878" />
+
+        <flow id="Suzaki1go_A_1700" from="179084432#1" number="744" />
+        <flow id="Suzaki1go_B_1700" from="58247215#4" number="756" />
+        <flow id="Suzaki1go_D_1700" from="-169489042#0" number="460" />
+
+        <flow id="Nanotsu1chome_Kudari_1700" from="-175860903#0" number="82" />
+
+        <!-- <flow id="NanotsuGuchi_A_1700" from="61460560#2" number="790" /> -->
+        <flow id="NanotsuGuchi_B_1700" from="46679467#4" number="1344" />
+        <!-- <flow id="NanotsuGuchi_C_1700" from="454480289#1" number="766" /> -->
+        <flow id="NanotsuGuchi_D_1700" from="-43105222#0" number="1143" />
+    </interval>
+
+    <!-- 18:00 -->
+    <interval begin="64800" end="68399">
+        <flow id="Nanotsu3chome_A_1800" from="258873376#3" number="242" />
+        <flow id="Nanotsu3chome_B_1800" from="169489042#4" number="120" />
+        <flow id="Nanotsu3chome_D_1800" from="180105248" number="199" />
+
+        <flow id="TenjinKitaRampToHW_1800" from="95481614" number="774" />
+        <flow id="TenjinKitaRampFromHW_1800" from="96377990" number="774" />
+
+        <flow id="Suzaki1go_A_1800" from="179084432#1" number="739" />
+        <flow id="Suzaki1go_B_1800" from="58247215#4" number="606" />
+        <flow id="Suzaki1go_D_1800" from="-169489042#0" number="497" />
+
+        <flow id="Nanotsu1chome_Kudari_1800" from="-175860903#0" number="54" />
+
+        <!-- <flow id="NanotsuGuchi_A_1800" from="61460560#2" number="879" /> -->
+        <flow id="NanotsuGuchi_B_1800" from="46679467#4" number="1607" />
+        <!-- <flow id="NanotsuGuchi_C_1800" from="454480289#1" number="843" /> -->
+        <flow id="NanotsuGuchi_D_1800" from="-43105222#0" number="1070" />
+    </interval>
+
+</flows>

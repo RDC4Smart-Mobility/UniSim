@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/additional_file.xsd">
+
+    <vType id="Fukuoka3000Type" vClass="rail_urban" length="66.5" carFollowModel="Rail" guiShape="rail/railcar" maxSpeed="19.444" accel="0.889" decel="1.11" emergencyDecel="1.25" personCapacity="378" />
+
+    <!-- From Hashimoto -->
+    <route id="HMtoTM" edges="23322477">
+        <stop busStop="Hashimoto_01" duration="20" />
+        <stop busStop="Jiromaru_01" duration="30" />
+        <stop busStop="Kamo_01" duration="30" />
+        <stop busStop="Noke_01" duration="40" />
+        <stop busStop="Umebayashi_01" duration="30" />
+        <stop busStop="FukudaiMae_01" duration="30" />
+        <stop busStop="Nanakuma_01" duration="40" />
+        <stop busStop="Kanayama_01" duration="30" />
+        <stop busStop="Chayama_01" duration="40" />
+        <stop busStop="Befu_01" duration="40" />
+        <stop busStop="Ropponmatsu_01" duration="50" />
+        <stop busStop="Sakurazaka_01" duration="40" />
+        <stop busStop="YakuinOdori_01" duration="30" />
+        <stop busStop="Yakuin_01" duration="70" />
+        <stop busStop="WatanabeDori_01" duration="40" />
+        <stop busStop="TenjinMinami_01" duration="20" />
+    </route>
+
+    <!-- From TenjinMinami -->
+    <route id="TMtoHM" edges="-23322477">
+        <stop busStop="TenjinMinami_02" duration="20" />
+        <stop busStop="WatanabeDori_02" duration="40" />
+        <stop busStop="Yakuin_02" duration="70" />
+        <stop busStop="YakuinOdori_02" duration="30" />
+        <stop busStop="Sakurazaka_02" duration="40" />
+        <stop busStop="Ropponmatsu_02" duration="50" />
+        <stop busStop="Befu_02" duration="40" />
+        <stop busStop="Chayama_02" duration="40" />
+        <stop busStop="Kanayama_02" duration="30" />
+        <stop busStop="Nanakuma_02" duration="40" />
+        <stop busStop="FukudaiMae_02" duration="30" />
+        <stop busStop="Umebayashi_02" duration="30" />
+        <stop busStop="Noke_02" duration="40" />
+        <stop busStop="Kamo_02" duration="30" />
+        <stop busStop="Jiromaru_02" duration="30" />
+        <stop busStop="Hashimoto_02" duration="20" />
+    </route>
+
+<!-- To TenjinMinami -->
+<!-- 07:00- (25200- ) -->
+    <vehicle id="FromHashimoto0700" type="Fukuoka3000Type" route="HMtoTM" depart="25200" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0706" type="Fukuoka3000Type" route="HMtoTM" depart="25560" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0712" type="Fukuoka3000Type" route="HMtoTM" depart="25920" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0718" type="Fukuoka3000Type" route="HMtoTM" depart="26280" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0724" type="Fukuoka3000Type" route="HMtoTM" depart="26640" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0730" type="Fukuoka3000Type" route="HMtoTM" depart="27000" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0735" type="Fukuoka3000Type" route="HMtoTM" depart="27300" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0740" type="Fukuoka3000Type" route="HMtoTM" depart="27600" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0744" type="Fukuoka3000Type" route="HMtoTM" depart="27840" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0748" type="Fukuoka3000Type" route="HMtoTM" depart="28080" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0752" type="Fukuoka3000Type" route="HMtoTM" depart="28320" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0756" type="Fukuoka3000Type" route="HMtoTM" depart="28560" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+
+<!-- 08:00- (28800- ) -->
+    <vehicle id="FromHashimoto0800" type="Fukuoka3000Type" route="HMtoTM" depart="28800" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0804" type="Fukuoka3000Type" route="HMtoTM" depart="29040" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0808" type="Fukuoka3000Type" route="HMtoTM" depart="29280" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0812" type="Fukuoka3000Type" route="HMtoTM" depart="29520" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0816" type="Fukuoka3000Type" route="HMtoTM" depart="29760" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0820" type="Fukuoka3000Type" route="HMtoTM" depart="30000" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0824" type="Fukuoka3000Type" route="HMtoTM" depart="30240" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0828" type="Fukuoka3000Type" route="HMtoTM" depart="30480" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0832" type="Fukuoka3000Type" route="HMtoTM" depart="30720" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0836" type="Fukuoka3000Type" route="HMtoTM" depart="30960" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0840" type="Fukuoka3000Type" route="HMtoTM" depart="31200" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0845" type="Fukuoka3000Type" route="HMtoTM" depart="31500" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0850" type="Fukuoka3000Type" route="HMtoTM" depart="31800" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto0855" type="Fukuoka3000Type" route="HMtoTM" depart="32100" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+
+<!-- 13:00- (46800- ) -->
+    <vehicle id="FromHashimoto1300" type="Fukuoka3000Type" route="HMtoTM" depart="46800" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1307" type="Fukuoka3000Type" route="HMtoTM" depart="47220" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1315" type="Fukuoka3000Type" route="HMtoTM" depart="47700" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1322" type="Fukuoka3000Type" route="HMtoTM" depart="48120" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1330" type="Fukuoka3000Type" route="HMtoTM" depart="48600" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1337" type="Fukuoka3000Type" route="HMtoTM" depart="49020" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1345" type="Fukuoka3000Type" route="HMtoTM" depart="49500" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1352" type="Fukuoka3000Type" route="HMtoTM" depart="49920" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+
+<!-- 14:00- (50400- ) -->
+    <vehicle id="FromHashimoto1400" type="Fukuoka3000Type" route="HMtoTM" depart="50400" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1407" type="Fukuoka3000Type" route="HMtoTM" depart="50820" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1415" type="Fukuoka3000Type" route="HMtoTM" depart="51300" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1422" type="Fukuoka3000Type" route="HMtoTM" depart="51720" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1430" type="Fukuoka3000Type" route="HMtoTM" depart="52200" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1437" type="Fukuoka3000Type" route="HMtoTM" depart="52620" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1445" type="Fukuoka3000Type" route="HMtoTM" depart="53100" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+    <vehicle id="FromHashimoto1452" type="Fukuoka3000Type" route="HMtoTM" depart="53520" line="Nanakuma" departPos="base" arrivalPos="max" color="0,140,94" />
+
+<!-- To Hashimoto -->
+<!-- 07:00- (25200- ) -->
+    <vehicle id="FromTenjinMinami0700" type="Fukuoka3000Type" route="TMtoHM" depart="25200" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0710" type="Fukuoka3000Type" route="TMtoHM" depart="25800" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0720" type="Fukuoka3000Type" route="TMtoHM" depart="26400" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0730" type="Fukuoka3000Type" route="TMtoHM" depart="27000" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0736" type="Fukuoka3000Type" route="TMtoHM" depart="27360" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0742" type="Fukuoka3000Type" route="TMtoHM" depart="27720" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0748" type="Fukuoka3000Type" route="TMtoHM" depart="28080" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0754" type="Fukuoka3000Type" route="TMtoHM" depart="28440" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+
+<!-- 08:00- (28800- ) -->
+    <vehicle id="FromTenjinMinami0800" type="Fukuoka3000Type" route="TMtoHM" depart="28800" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0805" type="Fukuoka3000Type" route="TMtoHM" depart="29100" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0810" type="Fukuoka3000Type" route="TMtoHM" depart="29400" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0814" type="Fukuoka3000Type" route="TMtoHM" depart="29640" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0818" type="Fukuoka3000Type" route="TMtoHM" depart="29880" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0822" type="Fukuoka3000Type" route="TMtoHM" depart="30120" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0826" type="Fukuoka3000Type" route="TMtoHM" depart="30360" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0830" type="Fukuoka3000Type" route="TMtoHM" depart="30600" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0834" type="Fukuoka3000Type" route="TMtoHM" depart="30840" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0838" type="Fukuoka3000Type" route="TMtoHM" depart="31080" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0842" type="Fukuoka3000Type" route="TMtoHM" depart="31320" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0846" type="Fukuoka3000Type" route="TMtoHM" depart="31560" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0850" type="Fukuoka3000Type" route="TMtoHM" depart="31800" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0854" type="Fukuoka3000Type" route="TMtoHM" depart="32040" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami0858" type="Fukuoka3000Type" route="TMtoHM" depart="32280" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+
+<!-- 13:00- (46800- ) -->
+    <vehicle id="FromTenjinMinami1300" type="Fukuoka3000Type" route="TMtoHM" depart="46800" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1307" type="Fukuoka3000Type" route="TMtoHM" depart="47220" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1315" type="Fukuoka3000Type" route="TMtoHM" depart="47700" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1322" type="Fukuoka3000Type" route="TMtoHM" depart="48120" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1330" type="Fukuoka3000Type" route="TMtoHM" depart="48600" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1337" type="Fukuoka3000Type" route="TMtoHM" depart="49020" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1345" type="Fukuoka3000Type" route="TMtoHM" depart="49500" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1352" type="Fukuoka3000Type" route="TMtoHM" depart="49920" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+
+<!-- 14:00- (50400- ) -->
+    <vehicle id="FromTenjinMinami1400" type="Fukuoka3000Type" route="TMtoHM" depart="50400" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1407" type="Fukuoka3000Type" route="TMtoHM" depart="50820" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1415" type="Fukuoka3000Type" route="TMtoHM" depart="51300" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1422" type="Fukuoka3000Type" route="TMtoHM" depart="51720" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1430" type="Fukuoka3000Type" route="TMtoHM" depart="52200" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1437" type="Fukuoka3000Type" route="TMtoHM" depart="52620" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1445" type="Fukuoka3000Type" route="TMtoHM" depart="53100" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+    <vehicle id="FromTenjinMinami1452" type="Fukuoka3000Type" route="TMtoHM" depart="53520" line="Nanakuma" departPos="base" arrivalPos="max" color="50,205,50" />
+
+</additional>

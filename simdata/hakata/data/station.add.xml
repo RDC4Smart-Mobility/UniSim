@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2019年06月27日 18時01分03秒 by Eclipse SUMO netedit Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="hakata-tenjin.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="hakata-tenjin.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/anpan/SandBox/simulator/sumo/sim_data/hakata/kcs_data/station.add.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="Akasaka_01" name="Akasaka" lane="-174763963#1_0" lines="Kuko" startPos="5717.25" endPos="5867.25"/>
+    <busStop id="Akasaka_02" name="Akasaka" lane="174763963#1_0" lines="Kuko" startPos="1221.50" endPos="1371.50"/>
+    <busStop id="Befu_01" name="Befu" lane="23322477_0" lines="Nanakuma" startPos="7480.00" endPos="7570.00"/>
+    <busStop id="Befu_02" name="Befu" lane="-23322477_0" lines="Nanakuma" startPos="4484.75" endPos="4574.75"/>
+    <busStop id="Chayama_01" name="Chayama" lane="23322477_0" lines="Nanakuma" startPos="6473.00" endPos="6563.00"/>
+    <busStop id="Chayama_02" name="Chayama" lane="-23322477_0" lines="Nanakuma" startPos="5487.85" endPos="5577.85"/>
+    <busStop id="ChiyoKenchoguchi_01" name="ChiyoKenchoguchi" lane="96379243_0" lines="Hakozaki" startPos="1408.50" endPos="1558.50"/>
+    <busStop id="ChiyoKenchoguchi_02" name="ChiyoKenchoguchi" lane="-96379243_0" lines="Hakozaki" startPos="3059.00" endPos="3209.00"/>
+    <busStop id="Fujisaki_01" name="Fujisaki" lane="-174763963#1_0" lines="Kuko" startPos="1500.00" endPos="1650.00"/>
+    <busStop id="Fujisaki_02" name="Fujisaki" lane="174763963#1_0" lines="Kuko" startPos="5440.50" endPos="5590.50"/>
+    <busStop id="FukudaiMae_01" name="FukudaiMae" lane="23322477_0" lines="Nanakuma" startPos="4341.00" endPos="4431.00"/>
+    <busStop id="FukudaiMae_02" name="FukudaiMae" lane="-23322477_0" lines="Nanakuma" startPos="7615.50" endPos="7705.50"/>
+    <busStop id="FukuokaAirport_01" name="FukuokaAirport" lane="-174763963#0_0" lines="Kuko" startPos="5270.0" endPos="5326.78"/>
+    <busStop id="FukuokaAirport_02" name="FukuokaAirport" lane="-44960415_0" lines="Kuko" startPos="0.50" endPos="58.50"/>
+    <busStop id="Gion_01" name="Gion" lane="-174763963#0_0" lines="Kuko" startPos="1238.30" endPos="1388.30"/>
+    <busStop id="Gion_02" name="Gion" lane="-44960415_0" lines="Kuko" startPos="3942.00" endPos="4092.00"/>
+    <busStop id="Gofukumachi_01" name="Gofukumachi" lane="96379243_0" lines="Hakozaki" startPos="711.50" endPos="861.50"/>
+    <busStop id="Gofukumachi_02" name="Gofukumachi" lane="-96379243_0" lines="Hakozaki" startPos="3755.50" endPos="3905.50"/>
+    <busStop id="HakozakiKyudaimae_01" name="HakozakiKyudaimae" lane="96379243_0" lines="Hakozaki" startPos="3879.00" endPos="4029.00"/>
+    <busStop id="HakozakiKyudaimae_02" name="HakozakiKyudaimae" lane="-96379243_0" lines="Hakozaki" startPos="586.00" endPos="736.00"/>
+    <busStop id="HakozakiMiyamae_01" name="HakozakiMiyamae" lane="96379243_0" lines="Hakozaki" startPos="3113.00" endPos="3263.00"/>
+    <busStop id="HakozakiMiyamae_02" name="HakozakiMiyamae" lane="-96379243_0" lines="Hakozaki" startPos="1346.50" endPos="1496.50"/>
+    <busStop id="Hashimoto_01" name="Hashimoto" lane="23322477_0" lines="Nanakuma" startPos="0.05" endPos=" 63.50"/>
+    <busStop id="Hashimoto_02" name="Hashimoto" lane="-23322477_0" lines="Nanakuma" startPos="11999.50" endPos="12060.96"/>
+    <busStop id="HigashiHie_01" name="HigashiHie" lane="-174763963#0_0" lines="Kuko" startPos="3080.00" endPos="3230.00"/>
+    <busStop id="HigashiHie_02" name="HigashiHie" lane="-44960415_0" lines="Kuko" startPos="2090.00" endPos="2240.00"/>
+    <busStop id="Jiromaru_01" name="Jiromaru" lane="23322477_0" lines="Nanakuma" startPos="950.00" endPos="1040.00"/>
+    <busStop id="Jiromaru_02" name="Jiromaru" lane="-23322477_0" lines="Nanakuma" startPos="11019.20" endPos="11109.20"/>
+    <busStop id="Kamo_01" name="Kamo" lane="23322477_0" lines="Nanakuma" startPos="1740.00" endPos="1830.00"/>
+    <busStop id="Kamo_02" name="Kamo" lane="-23322477_0" lines="Nanakuma" startPos="10229.5" endPos="10319.5"/>
+    <busStop id="Kanayama_01" name="Kanayama" lane="23322477_0" lines="Nanakuma" startPos="5656.40" endPos="5746.40"/>
+    <busStop id="Kanayama_02" name="Kanayama" lane="-23322477_0" lines="Nanakuma" startPos="6304.22" endPos="6394.22"/>
+    <busStop id="MaidashiKyudaibyoinmae_01" name="MaidashiKyudaibyoinmae" lane="96379243_0" lines="Hakozaki" startPos="2297.50" endPos="2447.50"/>
+    <busStop id="MaidashiKyudaibyoinmae_02" name="MaidashiKyudaibyoinmae" lane="-96379243_0" lines="Hakozaki" startPos="2168.50" endPos="2318.50"/>
+    <busStop id="Muromi_01" name="Muromi" lane="-174763963#1_0" lines="Kuko" startPos="739.00" endPos="889.00"/>
+    <busStop id="Muromi_02" name="Muromi" lane="174763963#1_0" lines="Kuko" startPos="6201.80" endPos="6351.80"/>
+    <busStop id="NakasuKawabata_01" name="NakasuKawabata" lane="96379243_0" lines="Hakozaki" startPos="247" endPos="397"/>
+    <busStop id="NakasuKawabata_02" name="NakasuKawabata" lane="-96379243_0" lines="Hakozaki" startPos="4220.04" endPos="4370.04"/>
+    <busStop id="NakasuKawabata_03" name="NakasuKawabata" lane="-174763963#0_0" lines="Kuko" startPos="251.44" endPos="401.44"/>
+    <busStop id="NakasuKawabata_04" name="NakasuKawabata" lane="-44960415_0" lines="Kuko" startPos="4920" endPos="5070"/>
+    <busStop id="Nanakuma_01" name="Nanakuma" lane="23322477_0" lines="Nanakuma" startPos="4947.00" endPos="5037.00"/>
+    <busStop id="Nanakuma_02" name="Nanakuma" lane="-23322477_0" lines="Nanakuma" startPos="7010.00" endPos="7100.00"/>
+    <busStop id="Nishijin_01" name="Nishijin" lane="-174763963#1_0" lines="Kuko" startPos="2606.15" endPos="2756.15"/>
+    <busStop id="Nishijin_02" name="Nishijin" lane="174763963#1_0" lines="Kuko" startPos="4333.00" endPos="4483.00"/>
+    <busStop id="Noke_01" name="Noke" lane="23322477_0" lines="Nanakuma" startPos="2614.90" endPos="2704.90"/>
+    <busStop id="Noke_02" name="Noke" lane="-23322477_0" lines="Nanakuma" startPos="9354.50" endPos="9444.50"/>
+    <busStop id="Ohorikoen_01" name="Ohorikoen" lane="-174763963#1_0" lines="Kuko" startPos="4662.50" endPos="4812.50"/>
+    <busStop id="Ohorikoen_02" name="Ohorikoen" lane="174763963#1_0" lines="Kuko" startPos="2279.00" endPos="2429.00"/>
+    <busStop id="Ropponmatsu_01" name="Ropponmatsu" lane="23322477_0" lines="Nanakuma" startPos="8275.50" endPos="8365.50"/>
+    <busStop id="Ropponmatsu_02" name="Ropponmatsu" lane="-23322477_0" lines="Nanakuma" startPos="3690.13" endPos="3780.13"/>
+    <busStop id="Sakurazaka_01" name="Sakurazaka" lane="23322477_0" lines="Nanakuma" startPos="9263.00" endPos="9353.00"/>
+    <busStop id="Sakurazaka_02" name="Sakurazaka" lane="-23322477_0" lines="Nanakuma" startPos="2706.02" endPos="2796.02"/>
+    <busStop id="SubwayHakata_01" name="Hakata" lane="-174763963#0_0" lines="Kuko" startPos="2021.00" endPos="2171.00"/>
+    <busStop id="SubwayHakata_02" name="Hakata" lane="-44960415_0" lines="Kuko" startPos="3155.00" endPos="3305.00"/>
+    <busStop id="TenjinMinami_01" name="TenjinMinami" lane="23322477_0" lines="Nanakuma" startPos="12010.50" endPos="12056.73"/>
+    <busStop id="TenjinMinami_02" name="TenjinMinami" lane="-23322477_0" lines="Nanakuma" startPos="0.01" endPos="45.01"/>
+    <busStop id="Tenjin_01" name="Tenjin" lane="-174763963#1_0" lines="Kuko" startPos="6534.00" endPos="6684.00"/>
+    <busStop id="Tenjin_02" name="Tenjin" lane="174763963#1_0" lines="Kuko" startPos="405.00" endPos="555.00"/>
+    <busStop id="Tojinmachi_01" name="Tojinmachi" lane="-174763963#1_0" lines="Kuko" startPos="3813.77" endPos="3963.77"/>
+    <busStop id="Tojinmachi_02" name="Tojinmachi" lane="174763963#1_0" lines="Kuko" startPos="3126.00" endPos="3276.00"/>
+    <busStop id="Umebayashi_01" name="Umebayashi" lane="23322477_0" lines="Nanakuma" startPos="3382.80" endPos="3472.80"/>
+    <busStop id="Umebayashi_02" name="Umebayashi" lane="-23322477_0" lines="Nanakuma" startPos="8587" endPos="8677"/>
+    <busStop id="WatanabeDori_01" name="WatanabeDori" lane="23322477_0" lines="Nanakuma" startPos="11372.00" endPos="11462.00"/>
+    <busStop id="WatanabeDori_02" name="WatanabeDori" lane="-23322477_0" lines="Nanakuma" startPos="582.00" endPos="672.00"/>
+    <busStop id="YakuinOdori_01" name="YakuinOdori" lane="23322477_0" lines="Nanakuma" startPos="10252.00" endPos="10342.00"/>
+    <busStop id="YakuinOdori_02" name="YakuinOdori" lane="-23322477_0" lines="Nanakuma" startPos="1714.31" endPos="1804.31"/>
+    <busStop id="Yakuin_01" name="Yakuin" lane="23322477_0" lines="Nanakuma" startPos="10845.50" endPos="10935.50"/>
+    <busStop id="Yakuin_02" name="Yakuin" lane="-23322477_0" lines="Nanakuma" startPos="1123.00" endPos="1213.00"/>
+</additional>

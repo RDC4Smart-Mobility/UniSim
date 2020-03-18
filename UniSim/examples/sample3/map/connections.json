@@ -1,0 +1,10 @@
+{
+	"net": [
+		"west2-7F.net.xml",
+		"west3-7F.net.xml"
+	],
+
+	"connections": [
+		["-45834#0", "-43211#4"]
+	]
+}

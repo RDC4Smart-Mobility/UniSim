@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/additional_file.xsd">
+
+    <vType id="Fukuoka2000Type" vClass="rail_urban" length="121.0" carFollowModel="Rail" guiShape="rail" maxSpeed="23.611" accel="0.972" decel="0.972" emergencyDecel="1.11" personCapacity="854" />
+
+    <!-- From NakasuKawabata -->
+    <!-- NKtoKZ (From NakasuKawabata to Kaizuka in Hakozaki-Line) -->
+    <route id="NKtoKZ" edges="96379243">
+        <stop busStop="NakasuKawabata_01" duration="50" />
+        <stop busStop="Gofukumachi_01" duration="55" />
+        <stop busStop="ChiyoKenchoguchi_01" duration="50" />
+        <stop busStop="MaidashiKyudaibyoinmae_01" duration="45" />
+        <stop busStop="HakozakiMiyamae_01" duration="50" />
+        <stop busStop="HakozakiKyudaimae_01" duration="50" />
+    </route>
+
+    <!-- From Kaizuka -->
+    <!-- KZtoNK (From Kaizuka to NakasuKawabata in Hakozaki-Line) -->
+    <route id="KZtoNK" edges="-96379243">
+        <stop busStop="HakozakiKyudaimae_02" duration="40" />
+        <stop busStop="HakozakiMiyamae_02" duration="40" />
+        <stop busStop="MaidashiKyudaibyoinmae_02" duration="45" />
+        <stop busStop="ChiyoKenchoguchi_02" duration="50" />
+        <stop busStop="Gofukumachi_02" duration="55" />
+        <stop busStop="NakasuKawabata_02" duration="50" />
+    </route>
+
+    <!-- KZtoMH (From Kaizuka to Meinohama in Hakozaki-Line and Kuko-Line) -->
+    <route id="KZtoMH" edges="-96379243 174763963#1">
+        <stop busStop="HakozakiKyudaimae_02" duration="40" />
+        <stop busStop="HakozakiMiyamae_02" duration="40" />
+        <stop busStop="MaidashiKyudaibyoinmae_02" duration="45" />
+        <stop busStop="ChiyoKenchoguchi_02" duration="50" />
+        <stop busStop="Gofukumachi_02" duration="55" />
+
+        <stop busStop="NakasuKawabata_02" duration="50" />
+        <stop busStop="Tenjin_02" duration="50" />        
+        <stop busStop="Akasaka_02" duration="50" />
+        <stop busStop="Ohorikoen_02" duration="50" />
+        <stop busStop="Tojinmachi_02" duration="50" />
+        <stop busStop="Nishijin_02" duration="50" />
+        <stop busStop="Fujisaki_02" duration="50" />
+        <stop busStop="Muromi_02" duration="50" />
+    </route>
+
+    <!-- From Meinohama -->
+    <!-- MHtoKZ (From Meinohama to Kaizuka in Kuko-Line and Hakozaki-Line) -->
+    <route id="MHtoKZ" edges="-174763963#1 96379243">
+        <stop busStop="Muromi_01" duration="50" />
+        <stop busStop="Fujisaki_01" duration="50" />
+        <stop busStop="Nishijin_01" duration="60" />
+        <stop busStop="Tojinmachi_01" duration="50" />
+        <stop busStop="Ohorikoen_01" duration="50" />
+        <stop busStop="Akasaka_01" duration="60" />
+        <stop busStop="Tenjin_01" duration="60" />
+        <stop busStop="NakasuKawabata_01" duration="50" />
+        <stop busStop="Gofukumachi_01" duration="55" />
+        <stop busStop="ChiyoKenchoguchi_01" duration="50" />
+        <stop busStop="MaidashiKyudaibyoinmae_01" duration="45" />
+        <stop busStop="HakozakiMiyamae_01" duration="50" />
+        <stop busStop="HakozakiKyudaimae_01" duration="50" />
+    </route>
+
+    <!-- MHtoAP (From Meinohama to Fukuoka-Airport in Kuko-Line) -->
+    <route id="MHtoAP" edges="-174763963#1 -174763963#0">
+        <stop busStop="Muromi_01" duration="50" />
+        <stop busStop="Fujisaki_01" duration="50" />
+        <stop busStop="Nishijin_01" duration="60" />
+        <stop busStop="Tojinmachi_01" duration="50" />
+        <stop busStop="Ohorikoen_01" duration="60" />
+        <stop busStop="Akasaka_01" duration="60" />
+        <stop busStop="Tenjin_01" duration="60" />
+        <stop busStop="NakasuKawabata_03" duration="70" />
+        <stop busStop="Gion_01" duration="60" />
+        <stop busStop="SubwayHakata_01" duration="90" />
+        <stop busStop="HigashiHie_01" duration="60" />
+        <stop busStop="FukuokaAirport_01" duration="30" />
+    </route>
+
+
+    <!-- From Fukuoka-Airport -->
+    <!-- APtoMH (From Fukuoka-Airport to Meinohama in Kuko-Line) -->
+    <route id ="APtoMH" edges="-44960415 174763963#1">
+        <stop busStop="FukuokaAirport_02" duration="30" />
+        <stop busStop="HigashiHie_02" duration="60" />
+        <stop busStop="SubwayHakata_02" duration="90" />
+        <stop busStop="Gion_02" duration="60" />
+        <stop busStop="NakasuKawabata_04" duration="50" />
+        <stop busStop="Tenjin_02" duration="50" />        
+        <stop busStop="Akasaka_02" duration="50" />
+        <stop busStop="Ohorikoen_02" duration="50" />
+        <stop busStop="Tojinmachi_02" duration="50" />
+        <stop busStop="Nishijin_02" duration="50" />
+        <stop busStop="Fujisaki_02" duration="50" />
+        <stop busStop="Muromi_02" duration="50" />
+    </route>
+
+
+<!-- To Airport or Kaizuka -->
+<!-- From Meinohama depart="+30", From NakasuKawabata depart="-50" -->
+<!-- 05:00 (18000- )-->
+    <vehicle id="FromNakasuKawabata0542" type="Fukuoka2000Type" route="NKtoKZ" depart="20470" line="Hakozaki" departPos="247" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0530" type="Fukuoka2000Type" route="MHtoAP" depart="19830" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0536" type="Fukuoka2000Type" route="MHtoKZ" depart="20190" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0540" type="Fukuoka2000Type" route="MHtoAP" depart="20430" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0545" type="Fukuoka2000Type" route="MHtoKZ" depart="20730" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0549" type="Fukuoka2000Type" route="MHtoAP" depart="20970" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0556" type="Fukuoka2000Type" route="MHtoKZ" depart="21390" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+
+
+<!-- 06:00- (21600- ) -->
+    <vehicle id="FromMeinohama0601" type="Fukuoka2000Type" route="MHtoAP" depart="21690" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0610" type="Fukuoka2000Type" route="MHtoKZ" depart="22230" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0615" type="Fukuoka2000Type" route="MHtoAP" depart="22530" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromNakasuKawabata0635" type="Fukuoka2000Type" route="NKtoKZ" depart="23650" line="Hakozaki" departPos="247" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0623" type="Fukuoka2000Type" route="MHtoAP" depart="23010" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0630" type="Fukuoka2000Type" route="MHtoKZ" depart="23430" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0634" type="Fukuoka2000Type" route="MHtoAP" depart="23670" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0639" type="Fukuoka2000Type" route="MHtoAP" depart="23970" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromNakasuKawabata0656" type="Fukuoka2000Type" route="NKtoKZ" depart="24910" line="Hakozaki" departPos="247" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0648" type="Fukuoka2000Type" route="MHtoAP" depart="24510" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0652" type="Fukuoka2000Type" route="MHtoKZ" depart="24750" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0657" type="Fukuoka2000Type" route="MHtoAP" depart="25050" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+
+
+<!-- 07:00- (25200- ) -->
+    <vehicle id="FromMeinohama0701" type="Fukuoka2000Type" route="MHtoKZ" depart="25290" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0706" type="Fukuoka2000Type" route="MHtoAP" depart="25590" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromNakasuKawabata0724" type="Fukuoka2000Type" route="NKtoKZ" depart="26590" line="Hakozaki" departPos="247" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0712" type="Fukuoka2000Type" route="MHtoAP" depart="25950" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0716" type="Fukuoka2000Type" route="MHtoKZ" depart="26130" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0720" type="Fukuoka2000Type" route="MHtoAP" depart="26430" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0723" type="Fukuoka2000Type" route="MHtoKZ" depart="26610" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0726" type="Fukuoka2000Type" route="MHtoAP" depart="41790" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0729" type="Fukuoka2000Type" route="MHtoAP" depart="26970" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromNakasuKawabata0746" type="Fukuoka2000Type" route="NKtoKZ" depart="27910" line="Hakozaki" departPos="247" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0732" type="Fukuoka2000Type" route="MHtoAP" depart="27150" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0735" type="Fukuoka2000Type" route="MHtoAP" depart="27330" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0738" type="Fukuoka2000Type" route="MHtoKZ" depart="27510" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0741" type="Fukuoka2000Type" route="MHtoAP" depart="27690" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0744" type="Fukuoka2000Type" route="MHtoAP" depart="27870" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromNakasuKawabata0802" type="Fukuoka2000Type" route="NKtoKZ" depart="28870" line="Hakozaki" departPos="247" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0747" type="Fukuoka2000Type" route="MHtoAP" depart="28050" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0750" type="Fukuoka2000Type" route="MHtoAP" depart="28230" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0753" type="Fukuoka2000Type" route="MHtoKZ" depart="28410" line="Hakozaki" departPos="base" arrivalPos="max" color="0,119,204" />
+    <vehicle id="FromMeinohama0756" type="Fukuoka2000Type" route="MHtoAP" depart="28590" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+    <vehicle id="FromMeinohama0759" type="Fukuoka2000Type" route="MHtoAP" depart="28770" line="Kuko" departPos="base" arrivalPos="max" color="238,85,17" />
+
+
+
+
+
+<!-- To Meinohama or NakasuKawabata -->
+<!-- From Kaizuka depart time "+70" -->
+<!-- 05:00- (18000- ) -->
+    <!-- ToDo : add FromHakata0530 -->
+    <vehicle id="FromKaizuka0530" type="Fukuoka2000Type" route="KZtoMH" depart="19870" line="Hakozaki" departPos="base" arrivalPos="max" />
+    <vehicle id="FromAirport0545" type="Fukuoka2000Type" route="APtoMH" depart="20700" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0556" type="Fukuoka2000Type" route="KZtoMH" depart="21430" line="Hakozaki" departPos="base" arrivalPos="max" />
+
+
+<!-- 06:00- (21600- ) -->
+    <vehicle id="FromAirport0601" type="Fukuoka2000Type" route="APtoMH" depart="21660" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0605" type="Fukuoka2000Type" route="KZtoMH" depart="21970" line="Hakozaki" departPos="base" arrivalPos="max" />
+    <vehicle id="FromAirport0614" type="Fukuoka2000Type" route="APtoMH" depart="22440" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0616" type="Fukuoka2000Type" route="KZtoNK" depart="22630" line="Hakozaki"  departPos="base" arrivalPos="422.04" color="0,255,255" />
+    <vehicle id="FromAirport0623" type="Fukuoka2000Type" route="APtoMH" depart="22980" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0627" type="Fukuoka2000Type" route="KZtoMH" depart="23290" line="Hakozaki" departPos="base" arrivalPos="max" />
+    <vehicle id="FromAirport0632" type="Fukuoka2000Type" route="APtoMH" depart="23520" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0639" type="Fukuoka2000Type" route="KZtoNK" depart="24010" line="Hakozaki"  departPos="base" arrivalPos="422.04" color="0,255,255" />
+    <vehicle id="FromAirport0644" type="Fukuoka2000Type" route="APtoMH" depart="24240" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0650" type="Fukuoka2000Type" route="KZtoMH" depart="24670" line="Hakozaki" departPos="base" arrivalPos="max" />
+    <vehicle id="FromAirport0654" type="Fukuoka2000Type" route="APtoMH" depart="24840" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0659" type="Fukuoka2000Type" route="KZtoNK" depart="25210" line="Hakozaki"  departPos="base" arrivalPos="422.04" color="0,255,255" />
+
+<!-- 07:00- (25200-) -->
+    <vehicle id="FromAirport0702" type="Fukuoka2000Type" route="APtoMH" depart="25320" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0710" type="Fukuoka2000Type" route="KZtoMH" depart="25870" line="Hakozaki" departPos="base" arrivalPos="max" />
+    <vehicle id="FromAirport0714" type="Fukuoka2000Type" route="APtoMH" depart="26040" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromAirport0721" type="Fukuoka2000Type" route="APtoMH" depart="26460" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0721" type="Fukuoka2000Type" route="KZtoNK" depart="26530" line="Hakozaki"  departPos="base" arrivalPos="422.04" color="0,255,255" />
+    <vehicle id="FromAirport0726" type="Fukuoka2000Type" route="APtoMH" depart="26760" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0730" type="Fukuoka2000Type" route="KZtoMH" depart="27070" line="Hakozaki" departPos="base" arrivalPos="max" />
+    <vehicle id="FromAirport0735" type="Fukuoka2000Type" route="APtoMH" depart="27300" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0738" type="Fukuoka2000Type" route="KZtoMH" depart="27550" line="Hakozaki" departPos="base" arrivalPos="max" />
+    <vehicle id="FromAirport0742" type="Fukuoka2000Type" route="APtoMH" depart="27720" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0745" type="Fukuoka2000Type" route="KZtoNK" depart="27970" line="Hakozaki"  departPos="base" arrivalPos="422.04" color="0,255,255" />
+    <vehicle id="FromAirport0748" type="Fukuoka2000Type" route="APtoMH" depart="28080" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromAirport0754" type="Fukuoka2000Type" route="APtoMH" depart="28440" line="Kuko" departPos="base" arrivalPos="max" />
+    <vehicle id="FromKaizuka0754" type="Fukuoka2000Type" route="KZtoNK" depart="28510" line="Hakozaki"  departPos="base" arrivalPos="422.04" color="0,255,255" />
+    <vehicle id="FromAirport0758" type="Fukuoka2000Type" route="APtoMH" depart="28680" line="Kuko" departPos="base" arrivalPos="max" />
+
+</additional>

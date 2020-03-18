@@ -1,0 +1,137 @@
+<!-- Fukuoka-Shiyakusho-Mae (Shiyakusho-Mae), Nihon-Ginko-Mae (Nichi-Gin-Mae) -->
+
+<flows>
+    <!-- 07:00- -->
+    <interval begin="25200" end="28799">
+        <flow id="FukuokaShiyakushoMae_B_0700" from="-636282886#1" number="437" />
+        <flow id="FukuokaShiyakushoMae_C_0700" from="68756861#2" number="141" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_0700" from="258878959#3" number="694" /> -->
+        
+        <flow id="NihonGikoMae_A_0700" from="-96531331#0" number="28" />
+        <flow id="NihonGikoMae_B_0700" from="174921908#2" number="807" />
+        <!-- <flow id="NihonGikoMae_D_0700" from="46696367#2" number="1603" /> -->
+    </interval>
+
+    <!-- 08:00 -->
+    <interval begin="28800" end="32399">
+        <flow id="FukuokaShiyakushoMae_B_0800" from="-636282886#1" number="555" />
+        <flow id="FukuokaShiyakushoMae_C_0800" from="68756861#2" number="228" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_0800" from="258878959#3" number="652" /> -->
+        
+        <flow id="NihonGikoMae_A_0800" from="-96531331#0" number="17" />
+        <flow id="NihonGikoMae_B_0800" from="174921908#2" number="954" />
+        <!-- <flow id="NihonGikoMae_D_0800" from="46696367#2" number="1488" /> -->
+    </interval>
+
+    <!-- 09:00 -->
+    <interval begin="32400" end="35999">
+        <flow id="FukuokaShiyakushoMae_B_0900" from="-636282886#1" number="811" />
+        <flow id="FukuokaShiyakushoMae_C_0900" from="68756861#2" number="357" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_0900" from="258878959#3" number="614" /> -->
+        
+        <flow id="NihonGikoMae_A_0900" from="-96531331#0" number="34" />
+        <flow id="NihonGikoMae_B_0900" from="174921908#2" number="1055" />
+        <!-- <flow id="NihonGikoMae_D_0900" from="46696367#2" number="1225" /> -->
+    </interval>
+
+    <!-- 10:00 -->
+    <interval begin="36000" end="39599">
+        <flow id="FukuokaShiyakushoMae_B_1000" from="-636282886#1" number="890" />
+        <flow id="FukuokaShiyakushoMae_C_1000" from="68756861#2" number="365" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_1000" from="258878959#3" number="615" /> -->
+        
+        <flow id="NihonGikoMae_A_1000" from="-96531331#0" number="61" />
+        <flow id="NihonGikoMae_B_1000" from="174921908#2" number="1224" />
+        <!-- <flow id="NihonGikoMae_D_1000" from="46696367#2" number="1233" /> -->
+    </interval>
+
+    <!-- 11:00 -->
+    <interval begin="39600" end="43199">
+        <flow id="FukuokaShiyakushoMae_B_1100" from="-636282886#1" number="750" />
+        <flow id="FukuokaShiyakushoMae_C_1100" from="68756861#2" number="389" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_1100" from="258878959#3" number="613" /> -->
+        
+        <flow id="NihonGikoMae_A_1100" from="-96531331#0" number="83" />
+        <flow id="NihonGikoMae_B_1100" from="174921908#2" number="1116" />
+        <!-- <flow id="NihonGikoMae_D_1100" from="46696367#2" number="1213" /> -->
+    </interval>
+
+    <!-- 12:00 -->
+    <interval begin="43200" end="46799">
+        <flow id="FukuokaShiyakushoMae_B_1200" from="-636282886#1" number="874" />
+        <flow id="FukuokaShiyakushoMae_C_1200" from="68756861#2" number="373" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_1200" from="258878959#3" number="551" /> -->
+        
+        <flow id="NihonGikoMae_A_1200" from="-96531331#0" number="68" />
+        <flow id="NihonGikoMae_B_1200" from="174921908#2" number="1023" />
+        <!-- <flow id="NihonGikoMae_D_1200" from="46696367#2" number="1161" /> -->
+    </interval>
+
+    <!-- 13:00 -->
+    <interval begin="46800" end="50399">
+        <flow id="FukuokaShiyakushoMae_B_1300" from="-636282886#1" number="890" />
+        <flow id="FukuokaShiyakushoMae_C_1300" from="68756861#2" number="418" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_1300" from="258878959#3" number="637" /> -->
+        
+        <flow id="NihonGikoMae_A_1300" from="-96531331#0" number="29" />
+        <flow id="NihonGikoMae_B_1300" from="174921908#2" number="1052" />
+        <!-- <flow id="NihonGikoMae_D_1300" from="46696367#2" number="974" /> -->
+    </interval>
+
+    <!-- 14:00 -->
+    <interval begin="50400" end="53999">
+        <flow id="FukuokaShiyakushoMae_B_1400" from="-636282886#1" number="811" />
+        <flow id="FukuokaShiyakushoMae_C_1400" from="68756861#2" number="415" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_1400" from="258878959#3" number="617" /> -->
+        
+        <flow id="NihonGikoMae_A_1400" from="-96531331#0" number="36" />
+        <flow id="NihonGikoMae_B_1400" from="174921908#2" number="1110" />
+        <!-- <flow id="NihonGikoMae_D_1400" from="46696367#2" number="1053" /> -->
+    </interval>
+
+    <!-- 15:00 -->
+    <interval begin="54000" end="57599">
+        <flow id="FukuokaShiyakushoMae_B_1500" from="-636282886#1" number="1017" />
+        <flow id="FukuokaShiyakushoMae_C_1500" from="68756861#2" number="403" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_1500" from="258878959#3" number="643" /> -->
+        
+        <flow id="NihonGikoMae_A_1500" from="-96531331#0" number="75" />
+        <flow id="NihonGikoMae_B_1500" from="174921908#2" number="1372" />
+        <!-- <flow id="NihonGikoMae_D_1500" from="46696367#2" number="1212" /> -->
+    </interval>
+
+    <!-- 16:00 -->
+    <interval begin="57600" end="61199">
+        <flow id="FukuokaShiyakushoMae_B_1600" from="-636282886#1" number="821" />
+        <flow id="FukuokaShiyakushoMae_C_1600" from="68756861#2" number="380" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_1600" from="258878959#3" number="556" /> -->
+        
+        <flow id="NihonGikoMae_A_1600" from="-96531331#0" number="56" />
+        <flow id="NihonGikoMae_B_1600" from="174921908#2" number="1059" />
+        <!-- <flow id="NihonGikoMae_D_1600" from="46696367#2" number="1074" /> -->
+    </interval>
+
+    <!-- 17:00 -->
+    <interval begin="61200" end="64799">
+        <flow id="FukuokaShiyakushoMae_B_1700" from="-636282886#1" number="1016" />
+        <flow id="FukuokaShiyakushoMae_C_1700" from="68756861#2" number="316" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_1700" from="258878959#3" number="589" /> -->
+        
+        <flow id="NihonGikoMae_A_1700" from="-96531331#0" number="61" />
+        <flow id="NihonGikoMae_B_1700" from="174921908#2" number="1208" />
+        <!-- <flow id="NihonGikoMae_D_1700" from="46696367#2" number="1230" /> -->
+    </interval>
+
+    <!-- 18:00 -->
+    <interval begin="64800" end="68399">
+        <flow id="FukuokaShiyakushoMae_B_1800" from="-636282886#1" number="893" />
+        <flow id="FukuokaShiyakushoMae_C_1800" from="68756861#2" number="238" />
+        <!-- <flow id="FukuokaShiyakushoMae_D_1800" from="258878959#3" number="516" /> -->
+        
+        <flow id="NihonGikoMae_A_1800" from="-96531331#0" number="78" />
+        <flow id="NihonGikoMae_B_1800" from="174921908#2" number="1426" />
+        <!-- <flow id="NihonGikoMae_D_1800" from="46696367#2" number="1107" /> -->
+    </interval>
+
+</flows>
+

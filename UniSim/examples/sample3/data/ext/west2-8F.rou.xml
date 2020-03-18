@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Nov 23 02:17:35 2017 by SUMO duarouter Version 0.29.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="west2-8F.net.xml"/>
+        <trip-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="west2-8F.rou.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <person id="0" depart="0.00">
+        <walk edges="-46546#0 -46546#1 -46546#2 -46546#3"/>
+    </person>
+    <person id="1" depart="60.00">
+        <walk edges="-46546#2 -46546#3 -46546#4 -46687"/>
+    </person>
+    <person id="2" depart="120.00">
+        <walk edges="-46546#7 -46546#8 -46546#9 -46635 -46546#0"/>
+    </person>
+    <person id="3" depart="180.00">
+        <walk edges="-46635 -46546#1"/>
+    </person>
+    <person id="4" depart="240.00">
+        <walk edges="-46546#10 -46546#9 -46546#8 -46660 -46546#2"/>
+    </person>
+    <person id="5" depart="300.00">
+        <walk edges="-46687"/>
+    </person>
+    <person id="6" depart="360.00">
+        <walk edges="-46665 -46546#3 -46674 -46546#6"/>
+    </person>
+    <person id="7" depart="420.00">
+        <walk edges="-46674 -46546#7 -46546#8 -46546#9 -46546#10"/>
+    </person>
+    <person id="8" depart="480.00">
+        <walk edges="-46546#5 -46687"/>
+    </person>
+    <person id="9" depart="540.00">
+        <walk edges="-46546#0 -46635 -46546#10"/>
+    </person>
+    <person id="10" depart="600.00">
+        <walk edges="-46546#3 -46674"/>
+    </person>
+    <person id="11" depart="660.00">
+        <walk edges="-46665 -46546#3 -46674 -46546#6"/>
+    </person>
+    <person id="12" depart="720.00">
+        <walk edges="-46546#4 -46546#3 -46546#2 -46660"/>
+    </person>
+    <person id="13" depart="780.00">
+        <walk edges="-46546#0 -46546#1"/>
+    </person>
+    <person id="14" depart="840.00">
+        <walk edges="-46679 -46546#8 -46660 -46546#1"/>
+    </person>
+    <person id="15" depart="900.00">
+        <walk edges="-46660 -46546#2 -46546#3"/>
+    </person>
+    <person id="16" depart="960.00">
+        <walk edges="-46546#5 -46546#6"/>
+    </person>
+    <person id="17" depart="1020.00">
+        <walk edges="-46546#1 -46660"/>
+    </person>
+    <person id="18" depart="1080.00">
+        <walk edges="-46665 -46546#2 -46660 -46546#8 -46679"/>
+    </person>
+    <person id="19" depart="1140.00">
+        <walk edges="-46546#4 -46546#3 -46546#2 -46546#1 -46546#0"/>
+    </person>
+    <person id="20" depart="1200.00">
+        <walk edges="-46679 -46546#8 -46660 -46546#2 -46546#3 -46674"/>
+    </person>
+    <person id="21" depart="1260.00">
+        <walk edges="-46546#10 -46546#9"/>
+    </person>
+    <person id="22" depart="1320.00">
+        <walk edges="-46546#1 -46546#0"/>
+    </person>
+    <person id="23" depart="1380.00">
+        <walk edges="-46687 -46546#4 -46546#3 -46546#2 -46660 -46546#8 -46679"/>
+    </person>
+    <person id="24" depart="1440.00">
+        <walk edges="-46693 -46546#6 -46546#7 -46546#8"/>
+    </person>
+    <person id="25" depart="1500.00">
+        <walk edges="-46635 -46546#9 -46546#8 -46546#7 -46546#6"/>
+    </person>
+    <person id="26" depart="1560.00">
+        <walk edges="-46674 -46546#6 -46546#5 -46546#4"/>
+    </person>
+    <person id="27" depart="1620.00">
+        <walk edges="-46546#8 -46546#7 -46546#6 -46693"/>
+    </person>
+    <person id="28" depart="1680.00">
+        <walk edges="-46546#0 -46635 -46546#10"/>
+    </person>
+    <person id="29" depart="1740.00">
+        <walk edges="-46665 -46546#3 -46674 -46546#6"/>
+    </person>
+    <person id="30" depart="1800.00">
+        <walk edges="-46674 -46546#3"/>
+    </person>
+    <person id="31" depart="1860.00">
+        <walk edges="-46679 -46546#9 -46546#10"/>
+    </person>
+    <person id="32" depart="1920.00">
+        <walk edges="-46546#10 -46546#9 -46546#8 -46660 -46546#1"/>
+    </person>
+    <person id="33" depart="1980.00">
+        <walk edges="-46660 -46546#8"/>
+    </person>
+    <person id="34" depart="2040.00">
+        <walk edges="-46687 -46546#4 -46546#3 -46665"/>
+    </person>
+    <person id="35" depart="2100.00">
+        <walk edges="-46546#0 -46635 -46546#9 -46546#8 -46546#7 -46546#6"/>
+    </person>
+    <person id="36" depart="2160.00">
+        <walk edges="-46546#1 -46546#0"/>
+    </person>
+    <person id="37" depart="2220.00">
+        <walk edges="-46679 -46546#9 -46635 -46546#0"/>
+    </person>
+    <person id="38" depart="2280.00">
+        <walk edges="-46546#5 -46546#4"/>
+    </person>
+    <person id="39" depart="2340.00">
+        <walk edges="-46546#1 -46546#2 -46546#3 -46546#4"/>
+    </person>
+    <person id="40" depart="2400.00">
+        <walk edges="-46546#6 -46546#7"/>
+    </person>
+    <person id="41" depart="2460.00">
+        <walk edges="-46679 -46546#8 -46660 -46546#2 -46665"/>
+    </person>
+    <person id="42" depart="2520.00">
+        <walk edges="-46546#2 -46546#3 -46674 -46546#6 -46693"/>
+    </person>
+    <person id="43" depart="2580.00">
+        <walk edges="-46546#0 -46546#1 -46546#2 -46546#3"/>
+    </person>
+    <person id="44" depart="2640.00">
+        <walk edges="-46679 -46546#8 -46660"/>
+    </person>
+    <person id="45" depart="2700.00">
+        <walk edges="-46546#8 -46546#9 -46635"/>
+    </person>
+    <person id="46" depart="2760.00">
+        <walk edges="-46546#8 -46679"/>
+    </person>
+    <person id="47" depart="2820.00">
+        <walk edges="-46546#9 -46635"/>
+    </person>
+    <person id="48" depart="2880.00">
+        <walk edges="-46687 -46546#4 -46546#3 -46546#2 -46660 -46546#7"/>
+    </person>
+    <person id="49" depart="2940.00">
+        <walk edges="-46679 -46546#9 -46635 -46546#0"/>
+    </person>
+    <person id="50" depart="3000.00">
+        <walk edges="-46693 -46546#6 -46674 -46546#3 -46546#2 -46546#1"/>
+    </person>
+    <person id="51" depart="3060.00">
+        <walk edges="-46635 -46546#9 -46546#8"/>
+    </person>
+    <person id="52" depart="3120.00">
+        <walk edges="-46687 -46546#4 -46546#3 -46546#2"/>
+    </person>
+    <person id="53" depart="3180.00">
+        <walk edges="-46546#5 -46546#4 -46546#3 -46546#2 -46660 -46546#8 -46546#9 -46635"/>
+    </person>
+    <person id="54" depart="3240.00">
+        <walk edges="-46546#8 -46660 -46546#2 -46546#3 -46546#4 -46687"/>
+    </person>
+    <person id="55" depart="3300.00">
+        <walk edges="-46679 -46546#8 -46660 -46546#2"/>
+    </person>
+    <person id="56" depart="3360.00">
+        <walk edges="-46546#3 -46546#2 -46660 -46546#8 -46546#9 -46635"/>
+    </person>
+    <person id="57" depart="3420.00">
+        <walk edges="-46635 -46546#1 -46546#2"/>
+    </person>
+    <person id="58" depart="3480.00">
+        <walk edges="-46546#2 -46546#3"/>
+    </person>
+    <person id="59" depart="3540.00">
+        <walk edges="-46660 -46546#2"/>
+    </person>
+</routes>

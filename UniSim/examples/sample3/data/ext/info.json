@@ -1,0 +1,30 @@
+{
+
+  "global": {
+    "color": "255,168,64"
+  },
+
+  "scope": {
+    "scope1": {
+        "ratio": 30,
+        "color": "64,128,255",
+        "app": "app1"
+    },
+    "scope2": {
+        "ratio": 10,
+        "color": "0,0,255",
+        "app": "app2"
+    }
+  },
+
+  "local": {
+    "1" : {
+      "color": "32,32,32"
+    },
+    "5" : {
+      "color": "32,32,32",
+      "agent": true
+    }
+  }
+
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <parkingArea id="TestParkArea" lane="-206636944#6_0" startPos="10" endPos="20" roadsideCapacity="1" />
+    <parkingArea id="HakataGuchi" lane="179129062#1_0" startPos="20" endPos="40" roadsideCapacity="2" />
+
+</additional>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Nov 23 14:10:54 2017 by SUMO netconvert Version 0.29.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="custom-osmNetconvert.typ.xml"/>
+        <osm-files value="west4-6F.osm"/>
+    </input>
+
+    <output>
+        <output-file value="west4-6F.net.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+</configuration>
+-->
+
+<net version="0.27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-612812.45,-3717892.04" convBoundary="0.00,0.00,137.62,95.30" origBoundary="130.215828,33.594798,130.217317,33.595646" projParameter="+proj=utm +zone=52 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <type id="highway.bridleway" priority="1" numLanes="1" speed="2.78" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.bus_guideway" priority="1" numLanes="1" speed="8.33" allow="bus" oneway="1"/>
+    <type id="highway.corridor" priority="1" numLanes="1" speed="2.78" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.cycleway" priority="1" numLanes="1" speed="5.56" allow="bicycle" oneway="0" width="1.00"/>
+    <type id="highway.footway" priority="1" numLanes="1" speed="2.78" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.ford" priority="1" numLanes="1" speed="2.78" allow="army" oneway="0"/>
+    <type id="highway.living_street" priority="3" numLanes="1" speed="2.78" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.motorway" priority="13" numLanes="2" speed="44.44" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" oneway="1"/>
+    <type id="highway.motorway_link" priority="12" numLanes="1" speed="22.22" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" oneway="1"/>
+    <type id="highway.path" priority="1" numLanes="1" speed="2.78" allow="bicycle pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.pedestrian" priority="1" numLanes="1" speed="2.78" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.primary" priority="9" numLanes="2" speed="27.78" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.primary_link" priority="8" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.raceway" priority="14" numLanes="2" speed="83.33" allow="vip" oneway="0"/>
+    <type id="highway.residential" priority="4" numLanes="1" speed="13.89" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.secondary" priority="7" numLanes="2" speed="27.78" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.secondary_link" priority="6" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.service" priority="2" numLanes="1" speed="5.56" allow="delivery bicycle pedestrian" oneway="0"/>
+    <type id="highway.services" priority="1" numLanes="1" speed="8.33" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.stairs" priority="1" numLanes="1" speed="1.39" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.step" priority="1" numLanes="1" speed="1.39" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.steps" priority="1" numLanes="1" speed="1.39" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.tertiary" priority="6" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.tertiary_link" priority="5" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.track" priority="1" numLanes="1" speed="5.56" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.trunk" priority="11" numLanes="2" speed="27.78" disallow="tram rail_urban rail rail_electric bicycle pedestrian ship" oneway="0"/>
+    <type id="highway.trunk_link" priority="10" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric bicycle pedestrian ship" oneway="0"/>
+    <type id="highway.unclassified" priority="5" numLanes="1" speed="13.89" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="highway.unsurfaced" priority="1" numLanes="1" speed="8.33" disallow="tram rail_urban rail rail_electric ship" oneway="0"/>
+    <type id="railway.light_rail" priority="15" numLanes="1" speed="27.78" allow="rail_urban" oneway="1"/>
+    <type id="railway.preserved" priority="15" numLanes="1" speed="27.78" allow="rail" oneway="1"/>
+    <type id="railway.rail" priority="15" numLanes="1" speed="83.33" allow="rail rail_electric" oneway="1"/>
+    <type id="railway.subway" priority="15" numLanes="1" speed="27.78" allow="rail_urban" oneway="1"/>
+    <type id="railway.tram" priority="15" numLanes="1" speed="13.89" allow="tram" oneway="1"/>
+
+    <edge id="-52867#0" from="-51641" to="-51679" priority="1" type="highway.corridor" spreadType="center" shape="0.00,21.00 3.82,15.25 18.48,25.05">
+        <lane id="-52867#0_0" index="0" allow="pedestrian" speed="2.78" length="22.04" width="2.00" shape="0.00,21.00 3.82,15.25 16.40,23.66"/>
+    </edge>
+    <edge id="-52867#1" from="-51679" to="-51685" priority="1" type="highway.corridor" spreadType="center" shape="18.48,25.05 29.33,32.30 36.89,37.04 54.91,47.47">
+        <lane id="-52867#1_0" index="0" allow="pedestrian" speed="2.78" length="37.77" width="2.00" shape="20.56,26.44 29.33,32.30 36.89,37.04 52.73,46.21"/>
+    </edge>
+    <edge id="-52867#2" from="-51685" to="-51691" priority="1" type="highway.corridor" spreadType="center" shape="54.91,47.47 62.15,51.67 69.41,55.63 83.37,62.58">
+        <lane id="-52867#2_0" index="0" allow="pedestrian" speed="2.78" length="27.26" width="2.00" shape="57.05,48.72 62.15,51.67 69.41,55.63 81.14,61.47"/>
+    </edge>
+    <edge id="-52867#3" from="-51691" to="-51697" priority="1" type="highway.corridor" spreadType="center" shape="83.37,62.58 95.24,68.48 103.35,72.22 115.42,77.30">
+        <lane id="-52867#3_0" index="0" allow="pedestrian" speed="2.78" length="30.28" width="2.00" shape="85.62,63.69 95.24,68.48 103.35,72.22 113.12,76.33"/>
+    </edge>
+    <edge id="-52867#4" from="-51697" to="-51659" priority="1" type="highway.corridor" spreadType="center" shape="115.42,77.30 131.44,84.03 126.58,95.30">
+        <lane id="-52867#4_0" index="0" allow="pedestrian" speed="2.78" length="27.14" width="2.00" shape="117.73,78.27 131.44,84.03 126.58,95.30"/>
+    </edge>
+    <edge id="-52869#0" from="-51661" to="-51683" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-52869#0_0" index="0" allow="pedestrian" speed="2.78" length="13.45" width="2.00" shape="16.55,-0.00 27.23,8.17"/>
+    </edge>
+    <edge id="-52869#1" from="-51683" to="-51689" priority="1" type="highway.corridor" spreadType="center" shape="29.22,9.69 30.13,10.39 39.78,17.77 46.49,19.78 64.20,31.62">
+        <lane id="-52869#1_0" index="0" allow="pedestrian" speed="2.78" length="36.61" width="2.00" shape="31.20,11.21 39.78,17.77 46.49,19.78 62.12,30.23"/>
+    </edge>
+    <edge id="-52869#2" from="-51689" to="-51695" priority="1" type="highway.corridor" spreadType="center" shape="64.20,31.62 65.14,32.25 71.60,36.56 78.02,37.93 92.07,45.99">
+        <lane id="-52869#2_0" index="0" allow="pedestrian" speed="2.78" length="26.66" width="2.00" shape="66.28,33.01 71.60,36.56 78.02,37.93 89.89,44.75"/>
+    </edge>
+    <edge id="-52869#3" from="-51695" to="-51701" priority="1" type="highway.corridor" spreadType="center" shape="92.07,45.99 103.94,52.80 110.44,53.76 123.12,60.04">
+        <lane id="-52869#3_0" index="0" allow="pedestrian" speed="2.78" length="29.42" width="2.00" shape="94.23,47.24 103.94,52.80 110.44,53.76 120.88,58.93"/>
+    </edge>
+    <edge id="-52869#4" from="-51701" to="-51677" priority="1" type="highway.corridor" spreadType="center">
+        <lane id="-52869#4_0" index="0" allow="pedestrian" speed="2.78" length="13.68" width="2.00" shape="125.37,61.15 137.62,67.22"/>
+    </edge>
+    <edge id="-52871" from="-51679" to="-51683" priority="1" type="highway.corridor" spreadType="center" shape="18.48,25.05 25.80,14.15 29.22,9.69">
+        <lane id="-52871_0" index="0" allow="pedestrian" speed="2.78" length="13.75" width="2.00" shape="19.87,22.97 25.80,14.15 27.70,11.68"/>
+    </edge>
+    <edge id="-52873" from="-51685" to="-51689" priority="1" type="highway.corridor" spreadType="center" shape="54.91,47.47 61.08,36.30 64.20,31.62">
+        <lane id="-52873_0" index="0" allow="pedestrian" speed="2.78" length="13.37" width="2.00" shape="56.13,45.27 61.08,36.30 62.81,33.70"/>
+    </edge>
+    <edge id="-52875" from="-51691" to="-51695" priority="1" type="highway.corridor" spreadType="center" shape="83.37,62.58 89.28,50.80 92.07,45.99">
+        <lane id="-52875_0" index="0" allow="pedestrian" speed="2.78" length="13.72" width="2.00" shape="84.50,60.34 89.28,50.80 90.81,48.16"/>
+    </edge>
+    <edge id="-52877" from="-51697" to="-51701" priority="1" type="highway.corridor" spreadType="center" shape="115.42,77.30 120.62,65.13 123.12,60.04">
+        <lane id="-52877_0" index="0" allow="pedestrian" speed="2.78" length="13.89" width="2.00" shape="116.40,74.99 120.62,65.13 122.02,62.29"/>
+    </edge>
+
+    <junction id="-51641" type="unregulated" x="0.00" y="21.00" incLanes="" intLanes="" shape="0.83,21.56 -0.83,20.45"/>
+    <junction id="-51659" type="unregulated" x="126.58" y="95.30" incLanes="-52867#4_0" intLanes="" shape="127.50,95.69 125.66,94.90"/>
+    <junction id="-51661" type="unregulated" x="16.55" y="0.00" incLanes="" intLanes="" shape="15.94,0.79 17.16,-0.79"/>
+    <junction id="-51677" type="unregulated" x="137.62" y="67.22" incLanes="-52869#4_0" intLanes="" shape="138.07,66.33 137.18,68.12"/>
+    <junction id="-51679" type="dead_end" x="18.48" y="25.05" incLanes="-52867#0_0" intLanes="" shape="20.00,27.27 21.11,25.61 20.70,23.53 19.04,22.41 16.96,22.83 15.84,24.49"/>
+    <junction id="-51683" type="dead_end" x="29.22" y="9.69" incLanes="-52869#0_0 -52871_0" intLanes="" shape="30.60,12.01 31.81,10.42 27.84,7.38 26.63,8.97 26.90,11.07 28.49,12.29"/>
+    <junction id="-51685" type="dead_end" x="54.91" y="47.47" incLanes="-52867#1_0" intLanes="" shape="56.55,49.58 57.56,47.85 57.00,45.75 55.25,44.78 53.23,45.34 52.23,47.08"/>
+    <junction id="-51689" type="dead_end" x="64.20" y="31.62" incLanes="-52869#1_0 -52873_0" intLanes="" shape="65.72,33.84 66.84,32.18 62.68,29.40 61.57,31.06 61.98,33.14 63.64,34.25"/>
+    <junction id="-51691" type="dead_end" x="83.37" y="62.58" incLanes="-52867#2_0" intLanes="" shape="85.17,64.59 86.06,62.80 85.39,60.79 83.60,59.89 81.58,60.57 80.69,62.36"/>
+    <junction id="-51695" type="dead_end" x="92.07" y="45.99" incLanes="-52869#2_0 -52875_0" intLanes="" shape="93.73,48.10 94.73,46.37 90.39,43.88 89.40,45.61 89.94,47.66 91.67,48.66"/>
+    <junction id="-51697" type="dead_end" x="115.42" y="77.30" incLanes="-52867#3_0" intLanes="" shape="117.34,79.19 118.12,77.35 117.32,75.39 115.48,74.60 113.51,75.41 112.73,77.25"/>
+    <junction id="-51701" type="dead_end" x="123.12" y="60.04" incLanes="-52869#3_0 -52877_0" intLanes="" shape="124.92,62.05 125.81,60.26 121.33,58.04 120.44,59.83 121.12,61.85 122.92,62.73"/>
+
+</net>

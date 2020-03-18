@@ -1,0 +1,10 @@
+{
+    "SUMO": {
+        "sim": {
+            "addr": "",
+            "port": "8873",
+            "cfg": "../hakata-tenjin_jam.sumocfg",
+            "net": "../hakata-tenjin.notjam.net.xml"
+        }
+    }
+}

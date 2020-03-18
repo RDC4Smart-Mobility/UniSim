@@ -1,0 +1,16 @@
+{
+    "SUMO": {
+        "Sim_A": {
+            "addr": "",
+            "port": "8873",
+            "cfg": "./data/west2-7F.sumocfg",
+            "net": "./map/west2-7F.ext.net.xml"
+        },
+        "Sim_B": {
+            "addr": "",
+            "port": "8874",
+            "cfg": "./data/west3-7F.sumocfg",
+            "net": "./map/west3-7F.ext.net.xml"
+        }
+    }
+}

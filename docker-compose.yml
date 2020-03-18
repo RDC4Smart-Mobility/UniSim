@@ -1,0 +1,40 @@
+version: '3'
+services:
+
+  # sample 1
+  # json-server:
+  #   image: clue/json-server
+  #   ports:
+  #     - 80:80
+  #   volumes:
+  #     - .\simdata\hakata\json_data\db_modify.json:/data/db.json # for windows
+  #     # - ./simdata/hakata/json_data/db_modify.json:/data/db.json # for unix
+  # unisim:
+  #   build: .
+  #   image: unisim
+  #   environment:
+  #     # DISPLAY: 192.168.38.46:0.0 # address of X server
+  #     DISPLAY: 172.17.1.45:0.0
+  #     # DISPLAY: 10.0.75.1:0.0 # vEthernet (DockerNAT)
+  #     # DISPLAY: 192.168.162.241:0.0
+  #   volumes:
+  #     - .\simdata:/simdata # for windows
+  #     # - ./simdata:/simdata # for windows
+  #   working_dir: /simdata/hakata/script
+  #   command: python navi_test.py
+
+  # sample 2
+  unisim:
+    build: .
+    image: unisim
+    environment:
+      DISPLAY: 192.168.1.7:0.0 # address of X server
+      # DISPLAY: 10.0.75.1:0.0 # vEthernet (DockerNAT)
+    volumes:
+      - .\simdata:/simdata # for windows
+      # - ./simdata:/simdata # for windows
+    ports:
+      - 5000:5000
+    working_dir: /simdata/sample_RESTServer/script
+    command: python sumo-run.py
+    # command: python test_db.py test.db # only show database record
